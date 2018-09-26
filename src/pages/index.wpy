@@ -150,6 +150,10 @@
         {
           lab: 'label',
           link: '/pages/label'
+        },
+        {
+          lab: 'icon',
+          link: '/pages/iconFont'
         }
       ],
       mynum: 20,

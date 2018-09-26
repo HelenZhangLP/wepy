@@ -28,7 +28,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 3,
+			"current": 4,
 			"list": [
 				{
 					"id": -1,
@@ -53,6 +53,11 @@
 					"name": "label",
 					"pathName": "pages/label",
 					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "iconFont",
+					"pathName": "pages/iconFont"
 				}
 			]
 		}

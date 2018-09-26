@@ -27,6 +27,7 @@ export default class extends wepy.app {
       'pages/layout',
       'pages/widget',
       'pages/button',
+      'pages/iconFont',
       'pages/label'
     ],
     window: {
