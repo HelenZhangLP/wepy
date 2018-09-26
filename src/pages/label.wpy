@@ -1,0 +1,76 @@
+
+<template>
+    <view class="wrap">
+      <view class="title">
+        <view class="title-main">Label</view>
+        <view class="title-sub">.label-right-circle-gradient：右侧圆角，宽由业务自定义，详见当前页面 code</view>
+      </view>
+      <view class="panel">
+        <lable class="label-right-circle-gradient" style="width: 126px">
+          右侧圆角
+        </lable>
+      </view>
+      <view class="separate-line"></view>
+      <view class="title">
+        <view class="title-main">Label</view>
+        <view class="title-sub">.label-left-circle-gradient：左侧圆角，宽由业务自定义，详见当前页面 code</view>
+        <view class="title-sub">.label-right(left)-circle-white：右(左)侧白底圆角，宽由业务自定义，详见当前页面 code</view>
+      </view>
+      <view class="panel">
+        <view class="df">
+          <lable class="{{labLeft ? 'label-left-circle-gradient' : 'label-left-circle-white'}}" @tap="setLeftBar" style="width: 50%">
+            左侧渐变圆角
+          </lable>
+          <lable class="{{labRight ? 'label-right-circle-gradient' : 'label-right-circle-white'}}" @tap="setRightBar" style="width: 50%;">
+            右侧白底圆角
+          </lable>
+        </view>
+      </view>
+    </view>
+
+  <toast />
+</template>
+
+<script>
+  import wepy from 'wepy'
+  import Toast from 'wepy-com-toast'
+
+  export default class Label extends wepy.page {
+    config = {
+      navigationBarTitleText: 'Label'
+    }
+    components = {
+      toast: Toast
+    }
+    data = {
+      labLeft: true,
+      labRight: false
+    }
+    methods = {
+      setLeftBar () {
+        if (this.labLeft) return
+        this.labLeft = !this.labLeft
+        this.labRight = !this.labRight
+
+        this.$invoke('toast', 'show', {
+          title: '调用接口请求数据，并渲染页面'
+        })
+      },
+      setRightBar () {
+        if (this.labRight) return
+        this.labLeft = !this.labLeft
+        this.labRight = !this.labRight
+
+        this.$invoke('toast', 'show', {
+          title: '调用接口请求数据，并渲染页面'
+        })
+      }
+    }
+    events = {}
+    onLoad() {};
+  }
+</script>
+
+<style scoped>
+
+</style>

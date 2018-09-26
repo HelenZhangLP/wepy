@@ -1,0 +1,38 @@
+<template>
+  <view class="wrap">
+    <view class="title text">价格-用于首页各列表（字体￥相等，price 13px，price-origin: 10px）</view>
+    <view>
+      <text class="price pr1">￥1.00</text>
+      <text class="price-origin">￥2.00</text>
+    </view>
+    <view class="title text">价格-订单详情确认订单(字体16px，字大￥小)</view>
+    <view class="">
+      <text class="price-for-order">1.00</text>
+    </view>
+    <view class="title text">价格-提交订单(字体14px，字大￥小)</view>
+    <view class="">
+      <text class="price-for-order-confirm">1.00</text>
+    </view>
+    <view class="title text">价格-用于优惠券页面(字体36px，字大￥小)</view>
+    <view class="bg-color-theme">
+      <text class="price-for-coupon">1.00</text>
+    </view>
+  </view>
+</template>
+
+<script>
+  import wepy from 'wepy'
+  export default class Widget extends wepy.page {
+    config = {
+      navigationBarTitleText: 'Widget'
+    };
+    data = {}
+    method = {}
+    events = {}
+    onLoad() {};
+  }
+</script>
+
+<style scoped>
+
+</style>

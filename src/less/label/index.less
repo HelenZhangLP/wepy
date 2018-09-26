@@ -1,0 +1,53 @@
+@import "../global/base/var/index";
+@import (reference) "../global/index";
+@import (reference) "../layout/index";
+
+/**
+ * 注：宽度根据业务自定义
+ */
+.border-radius(@h, @bgColor, @side, @fontColor) {
+  .flex-center;
+  border-top-@{side}-radius: @h/2;
+  border-bottom-@{side}-radius: @h/2;
+  background: @bgColor;
+  color: @fontColor;
+  box-sizing: border-box;
+}
+
+.border-radius-gradient(@h) {
+  height: @h;
+}
+
+.border-radius-white(@h, @side) when (@side = 'left') {
+  height: @h;
+  border: solid 1rpx @theme-dark;
+  border-right: none;
+}
+
+.border-radius-white(@h, @side) when (@side = 'right') {
+  height: @h - 2rpx;
+  border: solid 1rpx @theme-dark;
+  border-left: none;
+}
+
+.label-right-circle-gradient {
+  .border-radius-gradient(@height-label);
+  .border-radius(@h: @height-label, @side: right, @bgColor: @color-bg-gradient, @fontColor: @color-text-white)
+}
+
+.label-left-circle-gradient {
+  .border-radius-gradient(@height-label);
+  .border-radius(@h: @height-label, @side: left, @bgColor: @color-bg-gradient, @fontColor: @color-text-white)
+}
+
+.label-right-circle-white {
+  .border-radius-white(@h: @height-label, @side: 'right');
+  .border-radius(@h: @height-label, @side: right, @bgColor: @color-bg-white, @fontColor: @color-text-theme)
+}
+
+.label-left-circle-white {
+  .border-radius-white(@h: @height-label, @side: 'left');
+  .border-radius(@h: @height-label, @side: left, @bgColor: @color-bg-white, @fontColor: @color-text-theme)
+}
+
+

@@ -1,0 +1,167 @@
+
+/**
+ *  生成不同的 ui 框架
+ *  导入不同的系统的 ui 类库
+ *  如下案例为导入 mall-shop (云超) 类库
+ */
+
+//@import "box/index";
+//@import "ice/index";
+@import "mall-shop/index";
+
+/* c- 类名 */
+@c-theme: theme;
+@c-type-1: gray;
+@c-type-2: yellow;
+
+@small: s;
+@middle: m;
+@big: l;
+
+/* 字体 */
+@font-family: PingFangSC-Regular;
+@font-family-for-number: Verdana;
+@font-family-for-number-bold: Verdana-Bold;
+@font-family-for-number-pingfang: PingFang-SC-Medium;
+
+/* 颜色 */
+@white: #fff;
+@black: #000;
+@transparent: transparent;
+@gray-darker:     lighten(@black, 13.5%); // #222
+@gray-dark:       lighten(@black, 20%);   // #333
+@gray:            lighten(@black, 33.5%); // #555
+@gray-light:      lighten(@black, 60%);   // #999
+@gray-lighter:    lighten(@black, 93.5%); // #eee
+@theme-dark: #FF2C2C;
+
+@color-bg-theme-light: @theme-light;
+@color-bg-delete-red: @delete-red; //目前用于购物车左滑删除
+@color-bg-gradient: @img-btn-bg-linear-gradient;
+@color-bg-page: @color-page;
+@color-bg-white: @white;
+@color-bg-separate-line: @color-page;
+
+//@color-border-theme-dark: @theme-dark;
+//@color-border-nonTheme-yellow: @yellow;
+//@color-border-nonTheme-gray: @gray-lighter;
+
+//@color-border-for-ice: @theme-blue;
+//@color-border-for-box: @theme-yellow;
+
+@color-text-gray: @gray-dark;
+@color-text-white: @white;
+@color-text-black: @black;
+@color-text-theme: @theme;
+@color-text-gray-sub: @gray-light;
+@color-text-price: @color-price;
+
+/* 单位 */
+@unit: 1rpx;
+@border-unit: 1px;
+@vertical-unit: 1px;
+@unit-font: 24rpx; // 仅用于小程页面
+
+
+/* 通用行高 */
+@height: 90rpx;  // 列表通用行高
+@height-notice: 60rpx; //提醒文案行高
+@height-cart-item: 176rpx; //盒子购物车高度，用于盒子列表与盒子删除
+@height-label: 70rpx;  // tab 标签的高度
+@height-separate: 30rpx; // 分隔线高
+@circle-size: 90;  //用于类名
+@circle-size-unite: 90rpx;
+
+
+/* size */
+@base-size: 1rpx;
+@base-px: 1px; //for 边框，垂直间距等
+@base-font-size: 26rpx;
+@font-size-max: 52;
+@font-size-max-unit: 52rpx;
+@font-size-min: 20rpx;
+
+
+@icon-font-size: 24rpx;
+@icon-l-size: 42rpx;
+@icon-m-size: 32rpx;
+
+/* width && height */
+@saleout-label-width-lev1: 150rpx;
+@saleout-label-height-lev1: 150rpx;
+@saleout-label-width-lev2: 120rpx;
+@saleout-label-height-lev2: 120rpx;
+
+
+
+// btn width
+@btn-w-1: 124rpx;
+@btn-w-2: 196rpx;
+@btn-w-3: 280rpx;
+// btn height
+@btn-h-1: 56rpx;
+@btn-h-2: 64rpx;
+@btn-h-3: 80rpx;
+
+
+// 全局圆角
+@border-radius: 8rpx;
+
+
+
+
+
+@base: 1rpx;
+@base-px: 1px; //for 边框，垂直间距等
+@font-size-h1: 50rpx;
+@base-size: 18rpx; //for 字体
+@end-size: 34rpx; //for 字体
+@icon-font-size: 24rpx;
+@font-base-family: PingFang-SC-Medium;
+
+@min-height: 30rpx; //负责占位
+@wrap-list-height: 340rpx; //商品列表每个 item 的高
+
+@horizontal-margin: 30rpx;
+@vertical-margin: 20rpx;
+@base-margin: 5rpx;
+
+@normal-color-white: #fff;
+@normal-color-black: #000;
+@theme-color: #FF5436;
+@theme-color-price: #FF322E;
+
+
+@bg-base-color: #F5F5F5; //整站背景色
+@border-color: #F5F5F5; //整站分隔线
+
+
+@font-color-p: #333; //整站基础字体颜色
+@font-color-sub: #999; //描述或幅标题-level1
+
+
+@font-base-family: PingFang-SC-Medium;
+
+@label-bg-color-blue: #5b96ff;
+@label-bg-color-theme: #f94459;
+@bg-sub-color: #F2F2F2;
+@bg-notice-color: #FFF2EC;
+@pop-bg-color: rgba(0,0,0,.6);
+
+@btn-non-color: #f5f5f5; //btn 非主题 color
+
+//icon color
+@icon-base-color: #c1c1c1;
+@icon-theme-color: @theme-color;
+
+@bg-theme-color: @theme-color;
+
+//vertical separate line
+@vertical-separate-line-color: #f8f8f8;
+
+//icon color
+@icon-base-color: #c1c1c1;
+@icon-theme-color: @theme-color;
+//icon size
+@icon-big-size: 42rpx;
+@icon-normal-size: 32rpx;

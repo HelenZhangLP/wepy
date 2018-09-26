@@ -1,0 +1,300 @@
+@import (reference) "../global/index";
+@import (reference) "../layout/index";
+@import (reference) "../text/index";
+@import "../text/font/index.wxss";
+
+.navigator-bar {
+  .df;
+  .wrap;
+  .w100p;
+  .height-common;
+  .border-bottom;
+  align-items: center;
+  justify-content: space-between;
+}
+
+// 目前仅用于文档的标题
+.title {
+  .wrap;
+  .pt4;
+  .pb4;
+  .w100p;
+  .border-bottom;
+  .por;
+
+  &::before {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 5rpx;
+    height: @height/2;
+    margin-top: -@height/4;
+    vertical-align: middle;
+    background-color: @theme-dark;
+  }
+  
+  & .title-main {
+    .font-color;
+    .font-size-30;
+    font-weight: bold;
+  }
+  
+  & .title-sub {
+    .font-color-gray;
+    .font-size-24;
+    .mt1;
+  }
+}
+
+// 面板 - 目前仅用于文档面板
+.panel {
+  .w100p;
+  .ptb;
+  text-align: center;
+  .bg-color-white;
+  border-radius: @border-radius;
+}
+
+// 图形图片 取 ui 稿中最小数生成多个
+.circle(@circle-size);
+.circle(@circle-size, @i: 2) when (@i <= 5) {
+  @var: @circle-size + @i * 10;
+  @varpx: @circle-size-unite+@i*10;
+  .circle-@{var} {
+    width: @varpx;
+    height: @varpx;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  .circle(@circle-size, (@i+1));
+}
+
+
+/* 业务相关 start */
+// 价格
+.price {
+  .text-num-bold;
+  .font-size-26;
+  color: @color-text-price;
+}
+.price-origin {
+  .text-num;
+  .font-color-gray;
+  .font-size-20;
+  text-decoration: line-through;
+}
+.price-for-coupon {
+  .font-size-52;
+  .font-color-white;
+  .text-num-pingfang;
+  .por;
+  .pl4;
+  left: 4px;
+  
+  &::before {
+    content: '¥';
+    display: inline-block;
+    position: absolute;
+    left: -1px;
+    bottom: 5rpx;
+    font-family: @font-family;
+    .font-size-36;
+  }
+}
+.price-for-order {
+  .font-size-36;
+  .font-num-bold;
+  color: @color-text-price;
+  .por;
+  .pl2;
+  &::before {
+    content: '¥';
+    display: inline-block;
+    position: absolute;
+    left: -1px;
+    bottom: 0;
+    font-family: @font-family;
+    .font-size-24;
+  }
+}
+
+.price-for-order-confirm {
+  .font-size-28;
+  .font-num-bold;
+  .font-color;
+  .por;
+  .pl2;
+  &::before {
+    content: '¥';
+    display: inline-block;
+    position: absolute;
+    left: -2px;
+    top: 1rpx;
+    font-family: @font-family;
+    .font-size-24;
+  }
+}
+
+.separate-line {
+  .w100p;
+  height: @height-separate;
+  background-color: @color-bg-separate-line;
+}
+//.price-lev-0 { //for 主页 特殊，字体大小 50rpx;
+//  color: @theme-color-price;
+//  .font-size-h1;
+//  .price;
+//}
+//.price-lev-1 { //for 列表
+//  color: @theme-color-price;
+//  .font-size-4;
+//  .price;
+//}
+//.price-lev-2 { //for 列表
+//  color: @theme-color-price;
+//  .font-size-5;
+//  .price;
+//}
+//.price-lev-3 { //for 列表
+//  color: @theme-color-price;
+//  .font-size-3;
+//  .price;
+//}
+//// 复用，覆盖基础样式
+//.price-sale-out {
+//  color: @font-color-sub;
+//}
+//.origin-price {
+//  .price-origin;
+//  color: @font-color-sub;
+//  text-decoration: line-through;
+//}
+//.origin-price-1 {
+//  .origin-price;
+//  .font-size-2;
+//}
+//
+//.origin-price-2 {
+//  .origin-price;
+//  .font-size-5;
+//}
+//
+//.origin-price-3 {
+//  .origin-price;
+//  .font-size-7;
+//}
+//
+//.separator-line {
+//  border-top: solid @base-px @vertical-separate-line-color;
+//}
+//
+//.separator-line-bold {
+//  border-top: solid @base-px*10 @vertical-separate-line-color;
+//}
+//
+///* label start */
+//.label-theme {
+//  .font-size-7;
+//  .pr2;
+//  .pl2;
+//  .pt2;
+//  .pb2;
+//  border-radius: @border-radius;
+//}
+//.label-theme-fill {
+//  .label-theme;
+//  color: @normal-color-white;
+//  background-color: @theme-color;
+//}
+//
+//.label-theme-empty {
+//  .label-theme;
+//  color: @font-color-sub;
+//  border: solid 1rpx @theme-color
+//}
+///* label end*/
+//
+///* 通屏提示 start */
+//.line-full-notice { //适合单元素提醒
+//  width: 100%;
+//  height: @base-px*30!important;
+//  line-height: @base-px*30!important;
+//  text-align: center;
+//  color: @theme-color;
+//  background-color: @bg-notice-color;
+//  .font-size-5;
+//  overflow: hidden;
+//}
+//
+//.line-full-notice-more { //适合多元素提醒
+//  width: 100%;
+//  color: @theme-color;
+//  background-color: @bg-notice-color;
+//  .font-size-5;
+//}
+///* 通屏提示 end */
+//
+///* saleout start */
+//.wrap-sale-out {
+//  z-index: 9999;
+//  display: flex;
+//  position: absolute; // 跟着你爹定位
+//  top: 0;
+//  left: 0;
+//  width: 100%;
+//  height: 100%;
+//}
+//
+//.wrap-sale-out .cotent-label {
+//  margin: auto; // 水平垂直居中
+//  text-align: center;
+//  color: @color-text-white;
+//  font-size: @base-font-size;
+//  background-color: @color-filter-bg;
+//  border-radius: 50%;
+//}
+//.wrap-sale-out .cotent-label-@{small} {
+//  .wrap-sale-out .cotent-label;
+//  width: @saleout-label-width-lev2;
+//  height: @saleout-label-height-lev2;
+//  line-height: @saleout-label-height-lev2;
+//}
+//.wrap-sale-out .cotent-label-@{middle} {
+//  .wrap-sale-out .cotent-label;
+//  width: @saleout-label-width-lev1;
+//  height: @saleout-label-height-lev1;
+//  line-height: @saleout-label-height-lev1;
+//}
+///* saleout end */
+//
+//.module-bottom-pop {
+//  .content-vertical-horizontal-center;
+//  .is-wrap-true;
+//  position: absolute;
+//  bottom: 0;
+//  left: 0;
+//  width: 100%;
+//  height: @base*70;
+//  color: @normal-color-white;
+//  background-color: @pop-bg-color;
+//}
+//
+//.list-national-flag {
+//  width: 12px;
+//  height: 12px;
+//}
+//
+//.fl-btn {
+//  position: fixed;
+//  right: 10rpx;
+//  bottom: 20px;
+//  width: 50px;
+//  height: 50px;
+//  border-radius: 50%;
+//  background-color: #fff;
+//  border: solid 1rpx #f5f5f5;
+//}
+
+///* 业务相关 end */

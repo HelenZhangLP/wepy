@@ -1,0 +1,73 @@
+<template lang="wxml">
+  <view class="wrap">
+    <view class="title text">flex 布局，子元素两端对齐，子元素大小根据内容自适应</view>
+    <view class="list">
+        <view class="list-child">
+          <view class="text">子元素1</view>
+        </view>
+        <view class="list-child">
+                <text class="text-gray mr2">描述</text>
+                <text class="icon icon-more"></text>
+        </view>
+      </view>
+      <view class="list">
+        <view class="list-child">
+          <view class="text">子元素1</view>
+        </view>
+        <view class="list-child">
+                <text class="icon icon-more"></text>
+        </view>
+      </view>
+      <view class="list">
+        <view class="list-child box-child-horizantal">
+          <text class="icon icon-tab-category mr2"></text>
+          <view class="text dib">子元素1</view>
+        </view>
+        <view class="list-child">
+                <text class="icon icon-more"></text>
+        </view>
+      </view>
+      <view class="title text">flex 布局，子元素多列等分</view>
+      <view class="flex-column-wrap pb">
+        <view class="flex-4 flex-center-column pt">
+          <view class="circle-110 bg-color-theme"></view>
+          <view class="text pt1">文案描述</view>
+        </view>
+        <view class="flex-4 flex-center-column pt">
+          <view class="circle-110 bg-color-theme"></view>
+          <view class="text pt1">文案描述</view>
+        </view>
+        <view class="flex-4 flex-center-column pt">
+          <view class="circle-110 bg-color-theme"></view>
+          <view class="text pt1">文案描述</view>
+        </view>
+        <view class="flex-4 flex-center-column pt">
+          <view class="circle-110 bg-color-theme"></view>
+          <view class="text pt1">文案描述</view>
+        </view>
+        <view class="flex-4 flex-center-column pt">
+          <view class="circle-110 bg-color-theme"></view>
+          <view class="text pt1">文案描述</view>
+        </view>
+      </view>
+      <view class="title text">grid 布局，同样可写多行多列案例，但由于浏览器兼容性问题，暂不考虑</view>
+  </view>
+</template>
+
+<script>
+  import wepy from 'wepy'
+
+  export default class Layout extends wepy.page {
+    config = {
+      navigationBarTitleText: 'Layout'
+    }
+    data = {}
+    method = {}
+    events = {}
+    onLoad() {};
+  }
+</script>
+
+<style scoped>
+
+</style>

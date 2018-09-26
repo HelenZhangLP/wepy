@@ -1,0 +1,16 @@
+
+@import (reference) "../base/index";
+
+//生成多个多行溢出省略
+.generate-columns(3);
+.generate-columns(@m, @i: 1) when (@i =< @m) {
+  .ellipsis-@{i} {
+    display:-webkit-box;
+    -webkit-box-orient:vertical;
+    overflow: hidden;
+    -webkit-line-clamp: (@i);
+    text-overflow: ellipsis;
+    white-space: normal;
+  }
+  .generate-columns(@m, (@i + 1));
+}

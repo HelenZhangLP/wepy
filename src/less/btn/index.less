@@ -1,0 +1,193 @@
+
+@import (reference) "../global/index";
+@import (reference) "../text/index";
+
+.border-radius(@h) {
+  border-radius: @h;
+}
+
+.btn {
+  .font-size-5;
+  text-align: center;
+  border-radius: @border-radius;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-small {
+  .btn;
+  width: @btn-w-1;
+  height: @btn-h-1;
+}
+
+.btn-small-semicircle {
+  .border-radius(@btn-h-1/2)!important;
+}
+
+.btn-middle {
+  .btn;
+  width: @btn-w-2;
+  height: @btn-h-2;
+}
+
+.btn-middle-semicircle {
+  .border-radius(@btn-h-2/2)!important;
+}
+
+.btn-big {
+  .btn;
+  width: @btn-w-3;
+  height: @btn-h-3;
+}
+
+.btn-big-semicircle {
+  .border-radius(@btn-h-3/2)!important;
+}
+
+/* button start
+ * 默认主题色 */
+.btn-small-fill,
+.btn-small-empty,
+.btn-small-fill-normal,
+.btn-small-empty-normal {
+  .btn-small
+}
+
+.btn-middle-fill,
+.btn-middle-empty {
+  .btn-middle
+}
+
+.btn-big-fill,
+.btn-big-empty {
+  .btn-big
+}
+
+.btn-full-line-fill,
+.btn-full-line-empty {
+  .btn;
+  .ml10;
+  .mr10;
+  height: @btn-h-3;
+  width: calc(100% - 100);
+}
+
+.btn-full-line-fill-non,
+.btn-full-line-empty-non {
+  .btn;
+  height: @btn-h-3;
+  width: 100%;
+}
+
+.btn-self-adaption-empty,
+.btn-self-adaption-fill {
+  display: inline-block;
+  .pt1;
+  .pb1;
+  .pl5;
+  .pr5;
+  border-radius: @border-radius;
+}
+
+.btn-full-line-fill-non,
+.btn-self-adaption-fill,
+.btn-full-line-fill,
+.btn-small-fill,
+.btn-middle-fill,
+.btn-big-fill{
+  border: solid @base @theme-color;
+  background-color: @theme-color;
+  color: @normal-color-white;
+}
+
+.btn-full-line-empty-non,
+.btn-self-adaption-empty,
+.btn-full-line-empty,
+.btn-small-empty,
+.btn-middle-empty,
+.btn-big-empty {
+  border: solid 1rpx @theme-color;
+  color: @theme-color;
+}
+
+// btn for 盒子和冰柜
+.btn-full-line-fill-non-blue,
+.btn-self-adaption-fill-blue,
+.btn-full-line-fill-blue,
+.btn-small-fill-blue,
+.btn-middle-fill-blue,
+.btn-big-fill-blue{
+  .font-color-white;
+  border: solid @base @theme-blue;
+  background-color: @theme-blue;
+}
+
+.btn-full-line-empty-non-blue,
+.btn-self-adaption-empty-blue,
+.btn-full-line-empty-blue,
+.btn-small-empty-blue,
+.btn-middle-empty-blue,
+.btn-big-empty-blue {
+  .font-color-blue;
+  border: solid 1rpx @theme-blue;
+}
+
+.btn-full-line-fill-non-yellow,
+.btn-self-adaption-fill-yellow,
+.btn-full-line-fill-yellow,
+.btn-small-fill-yellow,
+.btn-middle-fill-yellow,
+.btn-big-fill-yellow{
+  .font-color-white;
+  border: solid @base @theme-yellow;
+  background-color: @theme-yellow;
+}
+
+.btn-full-line-empty-non-yellow,
+.btn-self-adaption-empty-yellow,
+.btn-full-line-empty-yellow,
+.btn-small-empty-yellow,
+.btn-middle-empty-yellow,
+.btn-big-empty-yellow {
+  .font-color-yellow;
+  border: solid 1rpx @theme-yellow;
+}
+
+//btn 非主题色
+.btn-non-fill,
+btn-fill-disabled {
+  background-color: @btn-non-color;
+  color: @font-color-sub;
+  border: solid 1rpx @btn-non-color;
+}
+
+.btn-non-empty,
+btn-empty-disabled {
+  border: solid @base @btn-non-color;
+  color: @btn-non-color;
+}
+/* button end */
+
+// 点击态 #FFC640 100%
+.btn-fill-hl {
+  background-color: lighten(@theme-color, 12.5%);
+  border: solid 1rpx lighten(@theme-color, 12.5%);
+}
+
+//.btn-fill-disabled {
+//  background: lighten(@theme-color, 28.5%);
+//  border: solid 1rpx lighten(@theme-color, 28.5%);
+//}
+
+.btn-empty-hl {
+  border: solid 1rpx lighten(@theme-color, 12.5%);
+  color: lighten(@theme-color, 12.5%);
+}
+
+//.btn-empty-disabled {
+//  border: solid 1rpx lighten(@theme-color, 28.5%);
+//  color: lighten(@theme-color, 28.5%);
+//}
+
+

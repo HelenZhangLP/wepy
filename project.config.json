@@ -1,0 +1,60 @@
+{
+	"description": "A WePY project",
+	"setting": {
+		"urlCheck": true,
+		"es6": false,
+		"postcss": false,
+		"minified": false,
+		"newFeature": true
+	},
+	"compileType": "miniprogram",
+	"appid": "wx35bc2b92f136114a",
+	"projectname": "fangqu-ui-element-wepy",
+	"miniprogramRoot": "./dist",
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"list": []
+		},
+		"miniprogram": {
+			"current": 3,
+			"list": [
+				{
+					"id": -1,
+					"name": "layout",
+					"pathName": "pages/layout",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "widget",
+					"pathName": "pages/widget",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "button",
+					"pathName": "pages/button",
+					"query": ""
+				},
+				{
+					"id": 3,
+					"name": "label",
+					"pathName": "pages/label",
+					"query": ""
+				}
+			]
+		}
+	}
+}

@@ -1,0 +1,49 @@
+/**
+  * 以后版本中，字体最大值与最小值与UI确认
+  * 字体最大最小基数
+ */
+
+@import (reference) "../../global/base/var/index";
+
+@counts: @font-size-max - @font-size-min;
+
+.generate-columns(@counts);
+.generate-columns(@counts, @i:0) when (@i <= @counts) {
+  @var: @font-size-max - @i;
+  .font-size-@{var} {
+    font-size: @font-size-max-unit - @i;
+  }
+  .generate-columns(@counts, (@i+1));
+};
+
+.font {
+  font-size: @base-font-size;
+}
+
+.font-color-theme {
+  color: @theme-color;
+}
+.font-color {
+  color: @color-text-gray;
+}
+.font-color-gray {
+  color: @color-text-gray-sub;
+}
+.font-color-black {
+  color: @color-text-black;
+}
+.font-color-white {
+  color: @normal-color-white;
+}
+
+.font-num {
+  font-family: @font-family-for-number;
+}
+
+.font-num-bold {
+  font-family: @font-family-for-number-bold;
+}
+
+.font-num-pingfang {
+  font-family: @font-family-for-number-pingfang;
+}

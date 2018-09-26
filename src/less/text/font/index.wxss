@@ -1,0 +1,130 @@
+/**
+  * 以后版本中，字体最大值与最小值与UI确认
+  * 字体最大最小基数
+ */
+.font-size-52 {
+  font-size: 52rpx;
+}
+.font-size-51 {
+  font-size: 51rpx;
+}
+.font-size-50 {
+  font-size: 50rpx;
+}
+.font-size-49 {
+  font-size: 49rpx;
+}
+.font-size-48 {
+  font-size: 48rpx;
+}
+.font-size-47 {
+  font-size: 47rpx;
+}
+.font-size-46 {
+  font-size: 46rpx;
+}
+.font-size-45 {
+  font-size: 45rpx;
+}
+.font-size-44 {
+  font-size: 44rpx;
+}
+.font-size-43 {
+  font-size: 43rpx;
+}
+.font-size-42 {
+  font-size: 42rpx;
+}
+.font-size-41 {
+  font-size: 41rpx;
+}
+.font-size-40 {
+  font-size: 40rpx;
+}
+.font-size-39 {
+  font-size: 39rpx;
+}
+.font-size-38 {
+  font-size: 38rpx;
+}
+.font-size-37 {
+  font-size: 37rpx;
+}
+.font-size-36 {
+  font-size: 36rpx;
+}
+.font-size-35 {
+  font-size: 35rpx;
+}
+.font-size-34 {
+  font-size: 34rpx;
+}
+.font-size-33 {
+  font-size: 33rpx;
+}
+.font-size-32 {
+  font-size: 32rpx;
+}
+.font-size-31 {
+  font-size: 31rpx;
+}
+.font-size-30 {
+  font-size: 30rpx;
+}
+.font-size-29 {
+  font-size: 29rpx;
+}
+.font-size-28 {
+  font-size: 28rpx;
+}
+.font-size-27 {
+  font-size: 27rpx;
+}
+.font-size-26 {
+  font-size: 26rpx;
+}
+.font-size-25 {
+  font-size: 25rpx;
+}
+.font-size-24 {
+  font-size: 24rpx;
+}
+.font-size-23 {
+  font-size: 23rpx;
+}
+.font-size-22 {
+  font-size: 22rpx;
+}
+.font-size-21 {
+  font-size: 21rpx;
+}
+.font-size-20 {
+  font-size: 20rpx;
+}
+.font {
+  font-size: 26rpx;
+}
+.font-color-theme {
+  color: #FF5436;
+}
+.font-color {
+  color: #333333;
+}
+.font-color-gray {
+  color: #999999;
+}
+.font-color-black {
+  color: #000;
+}
+.font-color-white {
+  color: #fff;
+}
+.font-num {
+  font-family: Verdana;
+}
+.font-num-bold {
+  font-family: Verdana-Bold;
+}
+.font-num-pingfang {
+  font-family: PingFang-SC-Medium;
+}

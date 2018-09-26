@@ -1,0 +1,305 @@
+
+@import (reference, multiple) "../global/index";
+
+.db {
+  display: block;
+}
+
+.df {
+  display: flex;
+}
+
+.dib {
+  display: inline-block;
+}
+
+/**
+  * 定位
+ */
+.por {
+  position: relative;
+}
+
+.pob {
+  position: absolute;
+}
+
+.pof {
+  position: fixed;
+}
+
+/**
+  * 浮动
+ */
+
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.clearfix:after {
+  content: "";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+.w100p {
+  width: 100%;
+}
+
+@level: 4;
+.flex(@level, @i:0) when (@i <= @level) {
+  .flex-@{i} {
+    width: percentage(1/@i)
+  }
+  .flex(@level, (@i+1));
+}
+.flex-column-wrap {
+  .df;
+  .w100p;
+  flex-wrap: wrap;
+  .flex(@level);
+}
+
+/**
+  * 定位至页面底部
+  */
+.layout-fixed {
+  .pof;
+  .pt3;
+  .pb3;
+  width: 100%;
+  background-color: @normal-color-white;
+}
+.layout-fixed-bottom {
+  .layout-fixed;
+  bottom: 0;
+  border-top: solid 1rpx @border-color;
+}
+/**
+  * 定位至页面顶部
+ */
+.layout-fixed-top {
+  .layout-fixed;
+  top: 0;
+}
+
+.wrap {
+  .plr;
+  background-color: @normal-color-white;
+  box-sizing: border-box;
+}
+
+
+
+
+.wrap-normal-radius {
+  .wrap;
+  border-radius: @border-radius;
+}
+
+.wrap-list {
+  .wrap;
+  .pt;
+  .pb;
+  max-height: @wrap-list-height;
+}
+
+.img-horizontal-wrap {
+  min-width: @base*50;
+  min-height: @base*50;
+  height: @base*50;
+  flex: 0!important;
+}
+
+.default-img {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  background-color: @normal-color-white;
+}
+
+/**
+  * 默认换行
+  * is-wrap-false 不换行
+ */
+//框架布局 start
+.is-wrap-false {
+  flex-flow: initial;
+}
+
+.is-wrap-true {
+  flex-flow: wrap;
+}
+
+.layout-vertical-wrap {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.layout-horizontal-wrap {
+  display: flex;
+  flex-direction: row;
+  background-color: @normal-color-white;
+  flex-flow: wrap;
+  width: 100%;
+  box-sizing: border-box;
+
+  .layout-fixed-width {
+    flex: 0;
+    min-width: 50px;
+    height: 50px;
+  }
+
+  & .layout-line-n {
+    flex: 1;
+    box-sizing: border-box;
+    .pr4;
+    .pl4;
+    .pt4;
+    .pb4;
+    min-height: @min-height;
+  }
+
+  & .layout-line-n-border {
+    .border-3;
+  }
+  & .layout-line-n-margin {
+    margin-left: @base-margin*2;
+  }
+  & .layout-line-n-border:first-of-type {
+    .border-1-left;
+  }
+  & .layout-line-n-margin:first-of-type {
+    margin: 0;
+  }
+
+  .generate-columns(4);
+  .generate-columns(@n, @i: 1) when (@i =< @n) {
+    .layout-line-@{i} {
+      width: percentage(1/@i);
+      padding: @base-margin*4;
+      min-height: @min-height;
+      box-sizing: border-box;
+    }
+
+    //定义方法
+    .layout-line-(@a) {
+      width: percentage(1/@a);
+      padding: @base-margin*4;
+      min-height: @min-height;
+      box-sizing: border-box;
+    }
+
+    // 类名判断 等于 1 .border-1-bottom 大于 1 .border-2
+    .mixin (@a) when (@a = 1) {
+      .border-1-bottom;
+    }
+    .mixin (@a) when (@a > 1) {
+      .border-2;
+    }
+    // 类名判断 end
+
+    .layout-line-@{i}-border {
+      .mixin(@i);
+      .layout-line-(@i);
+    }
+
+    .layout-line-@{i}-border:nth-child(@{i}) {
+      .border-1-right-none
+    }
+
+    .generate-columns(@n, (@i + 1));
+  }
+}
+.layout-horizontal-left,
+.layout-horizontal-right {
+  flex: 1;
+}
+
+//内容布局
+.content {
+  .df;
+  flex-flow: row;
+}
+.content-column {
+  .df;
+  flex-flow: column;
+}
+.flex-center {
+  .content;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-center-column {
+  .content-column;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-vertical-center {
+  .content;
+  align-items: center;
+}
+
+.box-child-horizantal {
+  -webkit-box-orient: horizontal;
+}
+
+.content-vertical-horizontal-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content-horizontal-right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.content-horizontal-left {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.content-vertical-align-right {
+  text-align: right;
+}
+
+.content-vertical-align-center {
+  text-align: center;
+}
+
+.content-vertical-center {
+  display: flex;
+  align-items: center;
+}
+
+.content-vertical-top {
+  display: flex;
+  align-items: flex-start;
+}
+
+.content-vertical-bottom {
+  display: flex;
+  align-items: flex-end;
+}
+
+// 列表
+.list {
+  .df;
+  .w100p;
+  .height-common;
+  .border-bottom;
+  align-items: center;
+  justify-content: space-between;
+
+  & .list-child{
+    max-width: 50%;
+    .ellipsis-1;
+  }
+}
