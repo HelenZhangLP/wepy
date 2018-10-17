@@ -28,7 +28,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 4,
+			"current": 6,
 			"list": [
 				{
 					"id": -1,
@@ -57,7 +57,19 @@
 				{
 					"id": -1,
 					"name": "iconFont",
-					"pathName": "pages/iconFont"
+					"pathName": "pages/iconFont",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "components",
+					"pathName": "pages/components",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "基本样式",
+					"pathName": "pages/common"
 				}
 			]
 		}

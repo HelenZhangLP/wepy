@@ -1,12 +1,173 @@
 
 <template>
   <view class="wrap">
-    <view class="title">
-      <view class="title-main">Button</view>
-      <view class="title-sub">小程序自带功能按钮</view>
-    </view>
     <view class="panel">
+      <view class="demo-title">
+        <view class="title-main">ATTENTION</view>
+        <view class="title-sub">1. button 内容默认为单行文本，多行文本时垂直方向展示</view>
+        <view class="title-sub">2. button 命名规则：以大小分六类，ss,s,m,l,xl,通屏</view>
+        <view class="title-sub">3. button 命名规则：以颜色分四类，普通，theme, 渐变色，置灰 </view>
+      </view>
+    </view>
+    <view class="separate-line"></view>
+    <view class="demo-title">
+      <view class="title-main">Button[128/48]</view>
+      <view class="title-sub">.btn-circle-radius-ss 背景透明色，1rpx 边框</view>
+      <view class="title-sub">.btn-circle-radius-theme-ss 背景主题色</view>
+      <view class="title-sub">.btn-circle-radius-gray-ss 背景灰色，用于不可点击按钮</view>
+      <view class="title-sub">.btn-circle-radius-gradient-ss 背景渐变色</view>
+    </view>
+    <view class="panel df">
+      <view class="btn-circle-radius-ss">128</view>
+      <view class="btn-circle-radius-theme-ss">128</view>
+      <view class="btn-circle-radius-gray-ss">128</view>
+      <view class="btn-circle-radius-gradient-ss">128</view>
+    </view>
+    <view class="demo-title">
+      <view class="title-main">Button[128/48]</view>
+      <view class="title-sub">.btn-ss 背景透明色，1rpx 边框</view>
+      <view class="title-sub">.btn-theme-ss 背景主题色</view>
+      <view class="title-sub">.btn-gray-ss 背景灰色，用于不可点击按钮</view>
+      <view class="title-sub">.btn-gradient-ss 背景渐变色</view>
+    </view>
+    <view class="panel df">
+      <view class="btn-ss">128</view>
+      <view class="btn-theme-ss">128</view>
+      <view class="btn-gray-ss">128</view>
+      <view class="btn-gradient-ss">128</view>
+    </view>
+    <view class="demo-title">
+      <view class="title-main">Button[164/50]</view>
+      <view class="title-sub">.btn-circle-radius-s 背景透明色，1rpx 边框</view>
+      <view class="title-sub">.btn-circle-radius-theme-s 背景主题色</view>
+      <view class="title-sub">.btn-circle-radius-gray-s 背景灰色，用于不可点击按钮</view>
+      <view class="title-sub">.btn-circle-radius-gradient-s 背景渐变色</view>
+    </view>
+    <view class="panel df">
+      <view class="btn-circle-radius-s">164</view>
+      <view class="btn-circle-radius-theme-s">164</view>
+      <view class="btn-circle-radius-gray-s">164</view>
+      <view class="btn-circle-radius-gradient-s">164</view>
+    </view>
+    <view class="demo-title">
+      <view class="title-main">Button[164/50]</view>
+      <view class="title-sub">.btn-s 背景透明色，1rpx 边框</view>
+      <view class="title-sub">.btn-theme-s 背景主题色</view>
+      <view class="title-sub">.btn-gray-s 背景灰色，用于不可点击按钮</view>
+      <view class="title-sub">.btn-gradient-s 背景渐变色</view>
+    </view>
+    <view class="panel df">
+      <view class="btn-s">164</view>
+      <view class="btn-theme-s">164</view>
+      <view class="btn-gray-s">164</view>
+      <view class="btn-gradient-s">164</view>
+    </view>
+    <view class="demo-title">
+      <view class="title-main">Button[172/64]</view>
+      <view class="title-sub">.btn-circle-radius-m 背景透明色，1rpx 边框</view>
+      <view class="title-sub">.btn-circle-radius-theme-m 背景主题色</view>
+      <view class="title-sub">.btn-circle-radius-gray-m 背景灰色，用于不可点击按钮</view>
+      <view class="title-sub">.btn-circle-radius-gradient-m 背景渐变色</view>
+    </view>
+    <view class="panel df">
+      <view class="btn-circle-radius-m">172</view>
+      <view class="btn-circle-radius-theme-m">172</view>
+      <view class="btn-circle-radius-gray-m">172</view>
+      <view class="btn-circle-radius-gradient-m">172</view>
+    </view>
+    <view class="demo-title">
+      <view class="title-main">Button[172/64]</view>
+      <view class="title-sub">.btn-m 背景透明色，1rpx 边框</view>
+      <view class="title-sub">.btn-theme-m 背景主题色</view>
+      <view class="title-sub">.btn-gray-m 背景灰色，用于不可点击按钮</view>
+      <view class="title-sub">.btn-gradient-m 背景渐变色</view>
+    </view>
+    <view class="panel df">
+      <view class="btn-m">172</view>
+      <view class="btn-theme-m">172</view>
+      <view class="btn-gray-m">172</view>
+      <view class="btn-gradient-m">172</view>
+    </view>
 
+    <view class="demo-title">
+      <view class="title-main">Button[196/80]</view>
+      <view class="title-sub">.btn-circle-radius-l 背景透明色，1rpx 边框</view>
+      <view class="title-sub">.btn-circle-radius-theme-l 背景主题色</view>
+      <view class="title-sub">.btn-circle-radius-gray-l 背景灰色，用于不可点击按钮</view>
+      <view class="title-sub">.btn-circle-radius-gradient-l 背景渐变色</view>
+    </view>
+    <view class="panel df">
+      <view class="btn-circle-radius-l">196</view>
+      <view class="btn-circle-radius-theme-l">196</view>
+      <view class="btn-circle-radius-gray-l">196</view>
+      <view class="btn-circle-radius-gradient-l">196</view>
+    </view>
+    <view class="demo-title">
+      <view class="title-main">Button[196/80]</view>
+      <view class="title-sub">.btn-l 背景透明色，1rpx 边框</view>
+      <view class="title-sub">.btn-theme-l 背景主题色</view>
+      <view class="title-sub">.btn-gray-l 背景灰色，用于不可点击按钮</view>
+      <view class="title-sub">.btn-gradient-l 背景渐变色</view>
+    </view>
+    <view class="panel df">
+      <view class="btn-l">196</view>
+      <view class="btn-theme-l">196</view>
+      <view class="btn-gray-l">196</view>
+      <view class="btn-gradient-l">196</view>
+    </view>
+
+    <view class="demo-title">
+      <view class="title-main">Button[280/80]</view>
+      <view class="title-sub">.btn-circle-radius-xl 背景透明色，1rpx 边框</view>
+      <view class="title-sub">.btn-circle-radius-theme-xl 背景主题色</view>
+      <view class="title-sub">.btn-circle-radius-gray-xl 背景灰色，用于不可点击按钮</view>
+      <view class="title-sub">.btn-circle-radius-gradient-xl 背景渐变色</view>
+    </view>
+    <view class="panel df">
+      <view class="btn-circle-radius-xl">280</view>
+      <view class="btn-circle-radius-theme-xl">280</view>
+      <view class="btn-circle-radius-gray-xl">280</view>
+      <view class="btn-circle-radius-gradient-xl">280</view>
+    </view>
+    <view class="demo-title">
+      <view class="title-main">Button[280/80]</view>
+      <view class="title-sub">.btn-xl 背景透明色，1rpx 边框</view>
+      <view class="title-sub">.btn-theme-xl 背景主题色</view>
+      <view class="title-sub">.btn-gray-xl 背景灰色，用于不可点击按钮</view>
+      <view class="title-sub">.btn-gradient-xl 背景渐变色</view>
+    </view>
+    <view class="panel df">
+      <view class="btn-xl">280</view>
+      <view class="btn-theme-xl">280</view>
+      <view class="btn-gray-xl">280</view>
+      <view class="btn-gradient-xl">280</view>
+    </view>
+
+    <view class="demo-title">
+      <view class="title-main">Button[100%/90]</view>
+      <view class="title-sub">.btn-circle-radius-full 背景透明色，1rpx 边框</view>
+      <view class="title-sub">.btn-circle-radius-theme-full 背景主题色</view>
+      <view class="title-sub">.btn-circle-radius-gray-full 背景灰色，用于不可点击按钮</view>
+      <view class="title-sub">.btn-circle-radius-gradient-full 背景渐变色</view>
+    </view>
+    <view class="panel df">
+      <view class="btn-circle-radius-full">100%</view>
+      <view class="btn-circle-radius-theme-full">100%</view>
+      <view class="btn-circle-radius-gray-full">100%</view>
+      <view class="btn-circle-radius-gradient-full">100%</view>
+    </view>
+    <view class="demo-title">
+      <view class="title-main">Button[100%/90]</view>
+      <view class="title-sub">.btn-full 背景透明色，1rpx 边框</view>
+      <view class="title-sub">.btn-theme-full 背景主题色</view>
+      <view class="title-sub">.btn-gray-full 背景灰色，用于不可点击按钮</view>
+      <view class="title-sub">.btn-gradient-full 背景渐变色</view>
+    </view>
+    <view class="panel df">
+      <view class="btn-full">100%</view>
+      <view class="btn-theme-full">100%</view>
+      <view class="btn-gray-full">100%</view>
+      <view class="btn-gradient-full">100%</view>
     </view>
   </view>
 </template>
@@ -25,5 +186,12 @@
 </script>
 
 <style scoped>
+  .panel {
+    text-align: left;
+    flex-flow: wrap;
+  }
+  .panel>view {
+    margin: 2px;
+  }
 
 </style>

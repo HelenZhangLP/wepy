@@ -7,35 +7,37 @@
 
 @counts: @font-size-max - @font-size-min;
 
+/* 字体大小 */
+.font-size {
+  font-size: @base-font-size;
+}
 .generate-columns(@counts);
 .generate-columns(@counts, @i:0) when (@i <= @counts) {
   @var: @font-size-max - @i;
   .font-size-@{var} {
-    font-size: @font-size-max-unit - @i;
+    font-size: @font-size-max-unit - @i!important;
   }
   .generate-columns(@counts, (@i+1));
 };
 
-.font {
-  font-size: @base-font-size;
-}
-
-.font-color-theme {
-  color: @theme-color;
-}
+/* 字体颜色 */
 .font-color {
   color: @color-text-gray;
 }
+.font-color-theme {
+  color: @color-text-theme!important;
+}
 .font-color-gray {
-  color: @color-text-gray-sub;
+  color: @color-text-gray-sub!important;
 }
 .font-color-black {
-  color: @color-text-black;
+  color: @color-text-black!important;
 }
 .font-color-white {
-  color: @normal-color-white;
+  color: @color-text-white!important;
 }
 
+/* 数字字体样式 */
 .font-num {
   font-family: @font-family-for-number;
 }
@@ -46,4 +48,9 @@
 
 .font-num-pingfang {
   font-family: @font-family-for-number-pingfang;
+}
+
+/* 字体加粗 */
+.font-bold {
+  font-weight: bold;
 }

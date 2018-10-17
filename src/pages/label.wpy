@@ -1,71 +1,99 @@
 
 <template>
     <view class="wrap">
-      <view class="title">
+      <view class="demo-title">
         <view class="title-main">Label</view>
         <view class="title-sub">.label-right-circle-gradient：右侧圆角，宽由业务自定义，详见当前页面 code</view>
       </view>
       <view class="panel">
-        <lable class="label-right-circle-gradient" style="width: 126px">
-          右侧圆角
+        <view class="label-right-circle-gradient" style="width: 126px">
+          <text class="icon icon-quick-buy font-size-28 font-color-white mr1"></text>
+          <text>右侧圆角</text>
+        </view>
+      </view>
+      <view class="demo-title">
+        <view class="title-main">Label</view>
+        <view class="title-sub">.label-left-circle-gradient：左侧圆角，宽由业务自定义，详见当前页面 code</view>
+      </view>
+      <view class="panel flex-end">
+        <lable class="label-left-circle-gradient" style="width: 126px">
+          <text class="icon icon-quick-buy font-size-28 font-color-white mr1"></text>
+          <text>左侧圆角</text>
+        </lable>
+      </view>
+      <view class="demo-title">
+        <view class="title-main">Label</view>
+        <view class="title-sub">.label-right-circle-theme：右侧圆角，宽由业务自定义，详见当前页面 code</view>
+      </view>
+      <view class="panel">
+        <view class="label-right-circle-theme" style="width: 126px">
+          <text class="icon icon-quick-buy font-size-28 font-color-white mr1"></text>
+          <text>右侧主题色圆角</text>
+        </view>
+      </view>
+      <view class="demo-title">
+        <view class="title-main">Label</view>
+        <view class="title-sub">.label-left-circle-theme：左侧圆角，宽由业务自定义，详见当前页面 code</view>
+      </view>
+      <view class="panel flex-end">
+        <lable class="label-left-circle-theme" style="width: 126px">
+          <text class="icon icon-quick-buy font-size-28 font-color-white mr1"></text>
+          <text>左侧主题色圆角</text>
         </lable>
       </view>
       <view class="separate-line"></view>
-      <view class="title">
+
+      <view class="demo-title">
         <view class="title-main">Label</view>
-        <view class="title-sub">.label-left-circle-gradient：左侧圆角，宽由业务自定义，详见当前页面 code</view>
+        <view class="title-sub">.label-left-circle-theme：左侧圆角，宽由业务自定义，详见当前页面 code</view>
         <view class="title-sub">.label-right(left)-circle-white：右(左)侧白底圆角，宽由业务自定义，详见当前页面 code</view>
       </view>
       <view class="panel">
         <view class="df">
-          <lable class="{{labLeft ? 'label-left-circle-gradient' : 'label-left-circle-white'}}" @tap="setLeftBar" style="width: 50%">
-            左侧渐变圆角
+          <lable class="{{false ? 'label-left-circle-theme' : 'label-left-circle-white'}}" style="width: 50%">
+            左侧主题色圆角
           </lable>
-          <lable class="{{labRight ? 'label-right-circle-gradient' : 'label-right-circle-white'}}" @tap="setRightBar" style="width: 50%;">
+          <lable class="{{true ? 'label-right-circle-theme' : 'label-right-circle-white'}}" style="width: 50%;">
             右侧白底圆角
           </lable>
         </view>
       </view>
-    </view>
 
-  <toast />
+      <view class="separate-line"></view>
+      <view class="demo-title">
+        <view class="title-main">Label</view>
+        <view class="title-sub">.label-left-circle-theme-lighter：左侧圆角，宽由业务自定义，详见当前页面 code</view>
+      </view>
+      <view class="panel flex-end">
+        <button class="label-left-circle-theme-lighter"
+                open-type="share"
+                style="width: 60px">
+          <text class="icon icon-share mr1" style="font-size: 26rpx;"></text>
+          <text class="font-size">分享</text>
+        </button>
+      </view>
+
+      <view class="separate-line"></view>
+      <view class="demo-title">
+        <view class="title-main">Label</view>
+        <view class="title-sub">.label-adaption-tab：宽高根据内容自适应，默认白底，主题色边框，详见当前页面 code</view>
+      </view>
+      <view class="panel">
+        <view class="label-adaption-tab">2人成团</view>
+      </view>
+    </view>
 </template>
 
 <script>
   import wepy from 'wepy'
-  import Toast from 'wepy-com-toast'
 
   export default class Label extends wepy.page {
     config = {
       navigationBarTitleText: 'Label'
     }
-    components = {
-      toast: Toast
-    }
-    data = {
-      labLeft: true,
-      labRight: false
-    }
-    methods = {
-      setLeftBar () {
-        if (this.labLeft) return
-        this.labLeft = !this.labLeft
-        this.labRight = !this.labRight
-
-        this.$invoke('toast', 'show', {
-          title: '调用接口请求数据，并渲染页面'
-        })
-      },
-      setRightBar () {
-        if (this.labRight) return
-        this.labLeft = !this.labLeft
-        this.labRight = !this.labRight
-
-        this.$invoke('toast', 'show', {
-          title: '调用接口请求数据，并渲染页面'
-        })
-      }
-    }
+    components = {}
+    data = {}
+    methods = {}
     events = {}
     onLoad() {};
   }

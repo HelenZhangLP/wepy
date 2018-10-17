@@ -1,7 +1,304 @@
-//
-//@import (reference) "../global/index";
-//@import (reference) "../text/index";
-//
+
+@import (reference) "../global/index";
+@import (reference) "../text/index";
+
+
+/**
+  * button
+  * 【注意】button 默认为单行文本，设计多行文本时垂直方向展示
+  * UI
+  * 1. 通屏； 2.
+  * 根据是否半圆角
+  * circle-radius 半圆角
+  * 1. 4px 圆角； 2. 高度一半圆角
+  * 根据颜色分
+  * 1. 纯色； 2. 激变色 3. 透明色
+ */
+.btn(@w, @h) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  width: @w;
+  height: @h;
+  .font-size;
+}
+.btn-circle-radius(@w, @h, @radius, @bgc) {
+  .btn(@w, @h);
+  background-color: @bgc;
+  border-radius: @radius;
+}
+
+.btn-circle-radius-@{smaller} {
+  .btn-circle-radius(@btn-w-0, @btn-h-0, @btn-h-0/2, @transparent);
+  color: @color-text-theme;
+  border: solid @unit @theme;
+}
+
+.btn-circle-radius-theme-@{smaller} {
+  .btn-circle-radius(@btn-w-0, @btn-h-0, @btn-h-0/2, @color-bg-theme);
+  color: @color-bg-white;
+}
+
+.btn-circle-radius-gray-@{smaller} {
+  .btn-circle-radius(@btn-w-0, @btn-h-0, @btn-h-0/2, @color-bg-btn-gray);
+  color: @color-text-gray;
+}
+
+.btn-circle-radius-gradient-@{smaller} {
+  .btn-circle-radius(@btn-w-0, @btn-h-0, @btn-h-0/2, @transparent);
+  background-image: @color-bg-gradient;
+  color: @color-bg-white;
+}
+
+.btn-@{smaller} {
+  .btn-circle-radius(@btn-w-0, @btn-h-0, @border-radius, @transparent);
+  color: @color-text-theme;
+  border: solid @unit @theme;
+}
+
+.btn-theme-@{smaller} {
+  .btn-circle-radius(@btn-w-0, @btn-h-0, @border-radius, @color-bg-theme);
+  color: @color-bg-white;
+}
+
+.btn-gray-@{smaller} {
+  .btn-circle-radius(@btn-w-0, @btn-h-0, @border-radius, @color-bg-btn-gray);
+  color: @color-text-gray;
+}
+
+.btn-gradient-@{smaller} {
+  .btn-circle-radius(@btn-w-0, @btn-h-0, @border-radius, @transparent);
+  background-image: @color-bg-gradient;
+  color: @color-bg-white;
+}
+
+.btn-circle-radius-@{small} {
+  .btn-circle-radius(@btn-w-1, @btn-h-1, @btn-h-1/2, @transparent);
+  color: @color-text-theme;
+  border: solid @unit @theme;
+}
+
+.btn-circle-radius-theme-@{small} {
+  .btn-circle-radius(@btn-w-1, @btn-h-1, @btn-h-1/2, @color-bg-theme);
+  color: @color-bg-white;
+}
+
+.btn-circle-radius-gray-@{small} {
+  .btn-circle-radius(@btn-w-1, @btn-h-1, @btn-h-1/2, @color-bg-btn-gray);
+  color: @color-text-gray;
+}
+
+.btn-circle-radius-gradient-@{small} {
+  .btn-circle-radius(@btn-w-1, @btn-h-1, @btn-h-1/2, @transparent);
+  background-image: @color-bg-gradient;
+  color: @color-bg-white;
+}
+
+.btn-@{small} {
+  .btn-circle-radius(@btn-w-1, @btn-h-1, @border-radius, @transparent);
+  color: @color-text-theme;
+  border: solid @unit @theme;
+}
+
+.btn-theme-@{small} {
+  .btn-circle-radius(@btn-w-1, @btn-h-1, @border-radius, @color-bg-theme);
+  color: @color-bg-white;
+}
+
+.btn-gray-@{small} {
+  .btn-circle-radius(@btn-w-1, @btn-h-1, @border-radius, @color-bg-btn-gray);
+  color: @color-text-gray;
+}
+
+.btn-gradient-@{small} {
+  .btn-circle-radius(@btn-w-1, @btn-h-1, @border-radius, @transparent);
+  background-image: @color-bg-gradient;
+  color: @color-bg-white;
+}
+
+.btn-circle-radius-@{middle} {
+  .btn-circle-radius(@btn-w-2, @btn-h-2, @btn-h-2/2, @transparent);
+  color: @color-text-theme;
+  border: solid @unit @theme;
+}
+
+.btn-circle-radius-theme-@{middle} {
+  .btn-circle-radius(@btn-w-2, @btn-h-2, @btn-h-2/2, @color-bg-theme);
+  color: @color-bg-white;
+}
+
+.btn-circle-radius-gray-@{middle} {
+  .btn-circle-radius(@btn-w-2, @btn-h-2, @btn-h-2/2, @color-bg-btn-gray);
+  color: @color-text-gray;
+}
+
+.btn-circle-radius-gradient-@{middle} {
+  .btn-circle-radius(@btn-w-2, @btn-h-2, @btn-h-2/2, @transparent);
+  background-image: @color-bg-gradient;
+  color: @color-bg-white;
+}
+
+.btn-@{middle} {
+  .btn-circle-radius(@btn-w-2, @btn-h-2, @border-radius, @transparent);
+  color: @color-text-theme;
+  border: solid @unit @theme;
+}
+
+.btn-theme-@{middle} {
+  .btn-circle-radius(@btn-w-2, @btn-h-2, @border-radius, @color-bg-theme);
+  color: @color-bg-white;
+}
+
+.btn-gray-@{middle} {
+  .btn-circle-radius(@btn-w-2, @btn-h-2, @border-radius, @color-bg-btn-gray);
+  color: @color-text-gray;
+}
+
+.btn-gradient-@{middle} {
+  .btn-circle-radius(@btn-w-2, @btn-h-2, @border-radius, @transparent);
+  background-image: @color-bg-gradient;
+  color: @color-bg-white;
+}
+
+
+
+.btn-circle-radius-@{big} {
+  .btn-circle-radius(@btn-w-3, @btn-h-3, @btn-h-3/2, @transparent);
+  color: @color-text-theme;
+  border: solid @unit @theme;
+}
+
+.btn-circle-radius-theme-@{big} {
+  .btn-circle-radius(@btn-w-3, @btn-h-3, @btn-h-3/2, @color-bg-theme);
+  color: @color-bg-white;
+}
+
+.btn-circle-radius-gray-@{big} {
+  .btn-circle-radius(@btn-w-3, @btn-h-3, @btn-h-3/2, @color-bg-btn-gray);
+  color: @color-text-gray;
+}
+
+.btn-circle-radius-gradient-@{big} {
+  .btn-circle-radius(@btn-w-3, @btn-h-3, @btn-h-3/2, @transparent);
+  background-image: @color-bg-gradient;
+  color: @color-bg-white;
+}
+
+.btn-@{big} {
+  .btn-circle-radius(@btn-w-3, @btn-h-3, @border-radius, @transparent);
+  color: @color-text-theme;
+  border: solid @unit @theme;
+}
+
+.btn-theme-@{big} {
+  .btn-circle-radius(@btn-w-3, @btn-h-3, @border-radius, @color-bg-theme);
+  color: @color-bg-white;
+}
+
+.btn-gray-@{big} {
+  .btn-circle-radius(@btn-w-3, @btn-h-3, @border-radius, @color-bg-btn-gray);
+  color: @color-text-gray;
+}
+
+.btn-gradient-@{big} {
+  .btn-circle-radius(@btn-w-3, @btn-h-3, @border-radius, @transparent);
+  background-image: @color-bg-gradient;
+  color: @color-bg-white;
+}
+
+.btn-circle-radius-@{bigger} {
+  .btn-circle-radius(@btn-w-4, @btn-h-4, @btn-h-4/2, @transparent);
+  color: @color-text-theme;
+  border: solid @unit @theme;
+}
+
+.btn-circle-radius-theme-@{bigger} {
+  .btn-circle-radius(@btn-w-4, @btn-h-4, @btn-h-4/2, @color-bg-theme);
+  color: @color-bg-white;
+}
+
+.btn-circle-radius-gray-@{bigger} {
+  .btn-circle-radius(@btn-w-4, @btn-h-4, @btn-h-4/2, @color-bg-btn-gray);
+  color: @color-text-gray;
+}
+
+.btn-circle-radius-gradient-@{bigger} {
+  .btn-circle-radius(@btn-w-4, @btn-h-4, @btn-h-4/2, @transparent);
+  background-image: @color-bg-gradient;
+  color: @color-bg-white;
+}
+
+.btn-@{bigger} {
+  .btn-circle-radius(@btn-w-4, @btn-h-4, @border-radius, @transparent);
+  color: @color-text-theme;
+  border: solid @unit @theme;
+}
+
+.btn-theme-@{bigger} {
+  .btn-circle-radius(@btn-w-4, @btn-h-4, @border-radius, @color-bg-theme);
+  color: @color-bg-white;
+}
+
+.btn-gray-@{bigger} {
+  .btn-circle-radius(@btn-w-4, @btn-h-4, @border-radius, @color-bg-btn-gray);
+  color: @color-text-gray;
+}
+
+.btn-gradient-@{bigger} {
+  .btn-circle-radius(@btn-w-4, @btn-h-4, @border-radius, @transparent);
+  background-image: @color-bg-gradient;
+  color: @color-bg-white;
+}
+
+
+
+.btn-circle-radius-full {
+  .btn-circle-radius(@btn-w-5, @btn-h-5, @btn-h-5/2, @transparent);
+  color: @color-text-theme;
+  border: solid @unit @theme;
+}
+
+.btn-circle-radius-theme-full {
+  .btn-circle-radius(@btn-w-5, @btn-h-5, @btn-h-5/2, @color-bg-theme);
+  color: @color-bg-white;
+}
+
+.btn-circle-radius-gray-full {
+  .btn-circle-radius(@btn-w-5, @btn-h-5, @btn-h-5/2, @color-bg-btn-gray);
+  color: @color-text-gray;
+}
+
+.btn-circle-radius-gradient-full {
+  .btn-circle-radius(@btn-w-5, @btn-h-5, @btn-h-5/2, @transparent);
+  background-image: @color-bg-gradient;
+  color: @color-bg-white;
+}
+
+.btn-full {
+  .btn-circle-radius(@btn-w-5, @btn-h-5, @border-radius, @transparent);
+  color: @color-text-theme;
+  border: solid @unit @theme;
+}
+
+.btn-theme-full {
+  .btn-circle-radius(@btn-w-5, @btn-h-5, @border-radius, @color-bg-theme);
+  color: @color-bg-white;
+}
+
+.btn-gray-full {
+  .btn-circle-radius(@btn-w-5, @btn-h-5, @border-radius, @color-bg-btn-gray);
+  color: @color-text-gray;
+}
+
+.btn-gradient-full {
+  .btn-circle-radius(@btn-w-5, @btn-h-5, @border-radius, @transparent);
+  background-image: @color-bg-gradient;
+  color: @color-bg-white;
+}
+
+
+
 //.border-radius(@h) {
 //  border-radius: @h;
 //}

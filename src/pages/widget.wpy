@@ -1,21 +1,76 @@
 <template>
   <view class="wrap">
-    <view class="title text">价格-用于首页各列表（字体￥相等，price 13px，price-origin: 10px）</view>
-    <view>
+    <view class="demo-title">
+      <view class="title-main">价格</view>
+      <view class="title-sub">用于首页各列表</view>
+      <view class="title-sub">数字与￥符号大小相待，.price 13px，.price-origin: 10px</view>
+    </view>
+    <view class="panel">
       <text class="price pr1">￥1.00</text>
       <text class="price-origin">￥2.00</text>
     </view>
-    <view class="title text">价格-订单详情确认订单(字体16px，字大￥小)</view>
-    <view class="">
+    <view class="demo-title">
+      <view class="title-main">价格</view>
+      <view class="title-sub">用于商品详情页</view>
+      <view class="title-sub">￥小字大 .price-for-product-detail 数字：25px</view>
+    </view>
+    <view class="panel">
+      <text class="price-for-product-detail">39.50</text>
+    </view>
+    <view class="demo-title">
+      <view class="title-main">价格</view>
+      <view class="title-sub">订单详情确认订单</view>
+      <view class="title-sub">字大￥小，price 16px</view>
+    </view>
+    <view class="panel">
       <text class="price-for-order">1.00</text>
     </view>
-    <view class="title text">价格-提交订单(字体14px，字大￥小)</view>
-    <view class="">
+    <view class="demo-title">
+      <view class="title-main">价格</view>
+      <view class="title-sub">提交订单</view>
+      <view class="title-sub">字大￥小，price 16px</view>
+    </view>
+    <view class="panel">
       <text class="price-for-order-confirm">1.00</text>
     </view>
-    <view class="title text">价格-用于优惠券页面(字体36px，字大￥小)</view>
-    <view class="bg-color-theme">
+    <view class="demo-title">
+      <view class="title-main">价格</view>
+      <view class="title-sub">用于优惠券页面</view>
+      <view class="title-sub">字大￥小，price 36px</view>
+    </view>
+    <view class="panel">
       <text class="price-for-coupon">1.00</text>
+    </view>
+    <view class="separate-line"></view>
+    <view class="demo-title">
+      <view class="title-main">售馨</view>
+      <view class="title-sub">.wrap-sale-out 外层外窗口样式 .label-sale-out-s 内层文案样式</view>
+      <view class="title-sub">宽高 120 的标</view>
+    </view>
+    <view class="panel">
+      <image
+             style="width:100px;height:100px;position:relative;"
+             mode="aspectFill"
+             src="http://img0.fengqu-inc.com/sf/skuInfos/14296869171717/006efe6d71597e955193101cbd3f0bd2.jpg@250w_250h_1c_1l.png">
+        <view class="wrap-sale-out">
+          <view class="label-sale-out-s">售馨</view>
+        </view>
+      </image>
+    </view>
+    <view class="demo-title">
+      <view class="title-main">售馨</view>
+      <view class="title-sub">.wrap-sale-out 外层外窗口样式 .label-sale-out-s 内层文案样式</view>
+      <view class="title-sub">宽高 150 的标</view>
+    </view>
+    <view class="panel">
+      <image
+        style="width:100px;height:100px;position:relative;"
+        mode="scaleToFill"
+        src="http://img0.fengqu-inc.com/sf/skuInfos/14296869171717/006efe6d71597e955193101cbd3f0bd2.jpg@250w_250h_1c_1l.png">
+        <view class="wrap-sale-out">
+          <view class="label-sale-out-l">售馨</view>
+        </view>
+      </image>
     </view>
   </view>
 </template>

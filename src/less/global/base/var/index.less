@@ -7,22 +7,26 @@
 
 //@import "box/index";
 //@import "ice/index";
-@import "mall-shop/index";
+//@import "leshou/index";
+@import "mingtai/index";
+//@import "mall-shop/index";
 
 /* c- 类名 */
 @c-theme: theme;
 @c-type-1: gray;
 @c-type-2: yellow;
 
+@smaller: ss;
 @small: s;
 @middle: m;
 @big: l;
+@bigger: xl;
 
 /* 字体 */
 @font-family: PingFangSC-Regular;
 @font-family-for-number: Verdana;
 @font-family-for-number-bold: Verdana-Bold;
-@font-family-for-number-pingfang: PingFang-SC-Medium;
+@font-family-for-number-pingfang: PingFangSC-Medium;
 
 /* 颜色 */
 @white: #fff;
@@ -33,21 +37,21 @@
 @gray:            lighten(@black, 33.5%); // #555
 @gray-light:      lighten(@black, 60%);   // #999
 @gray-lighter:    lighten(@black, 93.5%); // #eee
-@theme-dark: #FF2C2C;
+@theme-darker: #FF2C2C;
 
+@color-bg-theme: @theme;
 @color-bg-theme-light: @theme-light;
-@color-bg-delete-red: @delete-red; //目前用于购物车左滑删除
 @color-bg-gradient: @img-btn-bg-linear-gradient;
-@color-bg-page: @color-page;
 @color-bg-white: @white;
+
+@color-bg-delete-red: @delete-red; //目前用于购物车左滑删除
+@color-bg-page: @color-page;
 @color-bg-separate-line: @color-page;
+@color-bg-btn-gray: @color-page;
 
-//@color-border-theme-dark: @theme-dark;
-//@color-border-nonTheme-yellow: @yellow;
-//@color-border-nonTheme-gray: @gray-lighter;
+@color-border-gray: @border-gray;
+@color-border-theme: @theme;
 
-//@color-border-for-ice: @theme-blue;
-//@color-border-for-box: @theme-yellow;
 
 @color-text-gray: @gray-dark;
 @color-text-white: @white;
@@ -58,19 +62,87 @@
 
 /* 单位 */
 @unit: 1rpx;
-@border-unit: 1px;
-@vertical-unit: 1px;
-@unit-font: 24rpx; // 仅用于小程页面
+@unit-px: 1px;
+@border-unit: @unit-px;
+@vertical-unit: @unit-px;
+
+/* 字体大小 */
+@unit-font: 24rpx; // 通用字体大小
+@size-title-main: 28rpx; //主标题字体大小，cart-item 主标题
+@size-title-size: 28rpx; //主标题字体大小，cart-item 主标题
 
 
 /* 通用行高 */
 @height: 90rpx;  // 列表通用行高
+@height-110: 110rpx; // 首页标题高
 @height-notice: 60rpx; //提醒文案行高
 @height-cart-item: 176rpx; //盒子购物车高度，用于盒子列表与盒子删除
 @height-label: 70rpx;  // tab 标签的高度
+@height-label-share: 54rpx; //分享的label的高
 @height-separate: 30rpx; // 分隔线高
 @circle-size: 90;  //用于类名
 @circle-size-unite: 90rpx;
+
+/*
+ * size
+ * 全局方块的大小
+ */
+@size-float-btn: 100rpx; // 整站浮标大小
+@size-img-item: 220rpx;
+
+/* width && height */
+@saleout-big: 150rpx;
+@saleout-small: 120rpx;
+
+
+/*
+ * button
+ * 从小到大分五类类
+ * 宽高一一对应
+ * 64 24
+ * 74 25
+ * 86 32
+ * 98 40
+ * 140 40
+ * 100% 45
+ */
+@btn-w-0: 128rpx;
+@btn-w-1: 148rpx;
+@btn-w-2: 172rpx;
+@btn-w-3: 196rpx;
+@btn-w-4: 280rpx;
+@btn-w-5: 100%;
+
+@btn-h-0: 48rpx;
+@btn-h-1: 50rpx;
+@btn-h-2: 64rpx;
+@btn-h-3: 80rpx;
+@btn-h-4: 80rpx;
+@btn-h-5: 90rpx;
+
+
+/*
+ * 全局圆角
+ * 1. 用于 button
+ */
+@border-radius: 8rpx;
+
+
+
+
+
+
+/**
+  * position
+  * 整站浮标定位
+ */
+@position-float-btn-right: 10rpx;
+@position-float-btn-bottom: 20rpx;
+
+
+
+
+
 
 
 /* size */
@@ -85,28 +157,6 @@
 @icon-font-size: 24rpx;
 @icon-l-size: 42rpx;
 @icon-m-size: 32rpx;
-
-/* width && height */
-@saleout-label-width-lev1: 150rpx;
-@saleout-label-height-lev1: 150rpx;
-@saleout-label-width-lev2: 120rpx;
-@saleout-label-height-lev2: 120rpx;
-
-
-
-// btn width
-@btn-w-1: 124rpx;
-@btn-w-2: 196rpx;
-@btn-w-3: 280rpx;
-// btn height
-@btn-h-1: 56rpx;
-@btn-h-2: 64rpx;
-@btn-h-3: 80rpx;
-
-
-// 全局圆角
-@border-radius: 8rpx;
-
 
 
 
@@ -133,7 +183,7 @@
 
 
 @bg-base-color: #F5F5F5; //整站背景色
-@border-color: #F5F5F5; //整站分隔线
+//@border-color: #F5F5F5; //整站分隔线
 
 
 @font-color-p: #333; //整站基础字体颜色
@@ -165,3 +215,16 @@
 //icon size
 @icon-big-size: 42rpx;
 @icon-normal-size: 32rpx;
+
+
+//
+//<template lang="wxml">
+//<view class="wrap">
+//
+
+
+//<view class="title text">flex 布局，子元素多列等分</view>
+
+//
+//</view>
+//</template>

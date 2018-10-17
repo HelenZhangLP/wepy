@@ -50,19 +50,47 @@
   width: 100%;
 }
 
-@level: 4;
-.flex(@level, @i:0) when (@i <= @level) {
-  .flex-@{i} {
-    width: percentage(1/@i)
+.h100p {
+  height: 100%;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.flex-wrap {
+  .df;
+  .flex-1;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+
+@level: 10;
+.grid(@level, @i:1) when (@i <= @level) {
+  .grid-@{i} {
+    width: percentage(1/@i);
+    box-size: border-box;
   }
-  .flex(@level, (@i+1));
+  .grid(@level, (@i+1));
 }
 
 .flex-column-wrap {
   .df;
   .w100p;
-  flex-wrap: wrap;
-  .flex(@level);
+  .grid(@level);
+}
+
+/**
+  * 默认换行
+  * is-wrap-false 不换行
+ */
+//框架布局 start
+.is-wrap-false {
+  flex-flow: initial;
+}
+
+.is-wrap-true {
+  flex-flow: wrap;
 }
 
 /**
@@ -81,7 +109,7 @@
 .layout-fixed-bottom {
   .layout-fixed;
   bottom: 0;
-  border-top: solid 1rpx @border-color;
+  .border-top;
 }
 /**
   * 定位至页面顶部
@@ -97,46 +125,12 @@
   box-sizing: border-box;
 }
 
-
-
-.wrap-normal-radius {
-  .wrap;
+.wrap-radius {
+  .plr;
+  .ptb;
   border-radius: @border-radius;
 }
 
-.wrap-list {
-  .wrap;
-  .pt;
-  .pb;
-  max-height: @wrap-list-height;
-}
-
-.img-horizontal-wrap {
-  min-width: @base*50;
-  min-height: @base*50;
-  height: @base*50;
-  flex: 0!important;
-}
-
-.default-img {
-  display: inline-block;
-  width: 100%;
-  height: 100%;
-  background-color: @normal-color-white;
-}
-
-/**
-  * 默认换行
-  * is-wrap-false 不换行
- */
-//框架布局 start
-.is-wrap-false {
-  flex-flow: initial;
-}
-
-.is-wrap-true {
-  flex-flow: wrap;
-}
 
 .layout-vertical-wrap {
   display: flex;
@@ -169,13 +163,13 @@
   }
 
   & .layout-line-n-border {
-    .border-3;
+    .border-top-right-bottom;
   }
   & .layout-line-n-margin {
     margin-left: @base-margin*2;
   }
   & .layout-line-n-border:first-of-type {
-    .border-1-left;
+    .border-left;
   }
   & .layout-line-n-margin:first-of-type {
     margin: 0;
@@ -198,12 +192,12 @@
       box-sizing: border-box;
     }
 
-    // 类名判断 等于 1 .border-1-bottom 大于 1 .border-2
+    // 类名判断 等于 1 .border-bottom 大于 1 .border-right-bottom
     .mixin (@a) when (@a = 1) {
-      .border-1-bottom;
+      .border-bottom;
     }
     .mixin (@a) when (@a > 1) {
-      .border-2;
+      .border-right-bottom;
     }
     // 类名判断 end
 
@@ -213,7 +207,7 @@
     }
 
     .layout-line-@{i}-border:nth-child(@{i}) {
-      .border-1-right-none
+      .border-right-none
     }
 
     .generate-columns(@n, (@i + 1));
@@ -238,17 +232,39 @@
   justify-content: center;
   align-items: center;
 }
+.flex-end {
+  .content;
+  justify-content: flex-end;
+  align-items: center;
+}
 
-.flex-center-column {
+.flex-start {
+  .content;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+// flex 垂直居中，水平两端对齐
+.flex-spaceBetween-center {
+  .content;
+  justify-content: space-between;
+  align-items: center;
+}
+
+// 内容垂直排列，并且水平垂直方向居中
+.flex-center-center {
   .content-column;
   justify-content: center;
   align-items: center;
 }
 
-.flex-vertical-center {
-  .content;
-  align-items: center;
+/* 水平垂直对齐方式 start */
+.flex-start-center {
+  .content-column;
+  align-items: start;
+  justify-content: center;
 }
+/* 水平垂直对齐方式 end */
 
 .box-child-horizantal {
   -webkit-box-orient: horizontal;
@@ -293,16 +309,18 @@
 }
 
 // 列表
-.list {
-  .df;
+/* 小程序原生不支持该伪类 */
+//& :only-child {
+//  max-width: 50%;
+//  white-space: nowrap;
+//  overflow: hidden;
+//}
+.layout-spaceBetween-center {
   .w100p;
-  .height-common;
-  .border-bottom;
-  align-items: center;
-  justify-content: space-between;
-
-  & .list-child{
+  .flex-spaceBetween-center;
+  
+  .child {
     max-width: 50%;
-    .ellipsis-1;
+    overflow: hidden;
   }
 }

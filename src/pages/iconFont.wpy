@@ -1,156 +1,211 @@
 <template>
   <view class="wrap">
+    <view class="demo-title">
+      <view class="title-main">iconFont</view>
+      <view class="title-sub">目前所有 icon 归为一类，后期打算将同一类型但稍有差别的 icon 分类</view>
+    </view>
     <view class="flex-column-wrap ptb">
-      <view class="flex-3 content-column">
+      <view class="grid-3 content-column">
         <text class="icon icon-message"></text>
         <text>.icon-message</text>
       </view>
 
-      <view class="flex-3 content-column">
+      <view class="grid-3 content-column">
         <text class="icon icon-share"></text>
         <text>.icon-share</text>
       </view>
 
-      <view class="flex-3 content-column">
+      <view class="grid-3 content-column">
         <text class="icon icon-question"></text>
         <text>.icon-question</text>
       </view>
     </view>
     <view class="flex-column-wrap ptb">
-      <view class="flex-3 content-column">
+      <view class="grid-3 content-column">
         <text class="icon icon-attention"></text>
         <text>.icon-attention</text>
       </view>
 
-      <view class="flex-3 content-column">
-        <text class="icon icon-checkbox-checked"></text>
-        <text>.icon-checkbox-checked</text>
+      <view class="grid-3 content-column">
+        <text class="icon icon-shop"></text>
+        <text>.icon-shop</text>
       </view>
 
-      <view class="flex-3 content-column">
+      <view class="grid-3 content-column">
         <text class="icon icon-home-full"></text>
         <text>.icon-home-full</text>
       </view>
     </view>
     <view class="flex-column-wrap ptb">
-      <view class="flex-3 content-column">
+      <view class="grid-3 content-column">
         <text class="icon icon-home"></text>
         <text>.icon-home</text>
       </view>
 
-      <view class="flex-3 content-column">
+      <view class="grid-3 content-column">
         <text class="icon icon-right-arrow"></text>
         <text>.icon-right-arrow</text>
       </view>
 
-      <view class="flex-3 content-column">
-        <text class="icon icon-icon-check"></text>
-        <text>.icon-icon-check</text>
+      <view class="grid-3 content-column">
+        <text class="icon icon-location-thick"></text>
+        <text>.icon-location-thick</text>
       </view>
     </view>
     <view class="flex-column-wrap ptb">
 
-      <view class="flex-3 content-column">
+      <view class="grid-3 content-column">
         <text class="icon icon-checked-full"></text>
         <text>.icon-checked-full</text>
       </view>
 
-      <view class="flex-3 content-column">
+      <view class="grid-3 content-column">
         <text class="icon icon-gift"></text>
         <text>.icon-gift</text>
       </view>
 
-      <view class="flex-3 content-column">
+      <view class="grid-3 content-column">
         <text class="icon icon-wait-deliver"></text>
         <text>.icon-wait-deliver</text>
       </view>
     </view>
     <view class="flex-column-wrap ptb">
 
-      <view class="flex-3 content-column">
+      <view class="grid-3 content-column">
         <text class="icon icon-wait-pay"></text>
         <text>.icon-wait-pay</text>
       </view>
 
-      <view class="flex-3 content-column">
+      <view class="grid-3 content-column">
         <text class="icon icon-quick-buy"></text>
         <text>.icon-quick-buy</text>
       </view>
 
-      <view class="flex-3 content-column">
+      <view class="grid-3 content-column">
         <text class="icon icon-search"></text>
         <text>.icon-search</text>
       </view>
     </view>
     <view class="flex-column-wrap ptb">
 
-      <view class="flex-3 content-column">
+      <view class="grid-3 content-column">
         <text class="icon icon-group-invite"></text>
         <text>.icon-group-invite</text>
       </view>
 
-      <view class="flex-3 content-column">
+      <view class="grid-3 content-column">
         <text class="icon icon-group-checked"></text>
         <text>.icon-group-checked</text>
       </view>
 
-      <view class="flex-3 content-column">
+      <view class="grid-3 content-column">
         <text class="icon icon-order"></text>
         <text>.icon-order</text>
       </view>
     </view>
     <view class="flex-column-wrap ptb">
 
-      <view class="flex-3 content-column">
+      <view class="grid-3 content-column">
         <text class="icon icon-phone"></text>
         <text>.icon-phone</text>
       </view>
 
-      <view class="flex-3 content-column">
+      <view class="grid-3 content-column">
         <text class="icon icon-location"></text>
         <text>.icon-location</text>
       </view>
 
-      <view class="flex-3 content-column">
+      <view class="grid-3 content-column">
         <text class="icon icon-delete"></text>
         <text>.icon-delete</text>
       </view>
     </view>
     <view class="flex-column-wrap ptb">
 
-      <view class="flex-3 content-column">
+      <view class="grid-3 content-column">
         <text class="icon icon-me-full"></text>
         <text>.icon-me-full</text>
       </view>
 
-      <view class="flex-3 content-column">
+      <view class="grid-3 content-column">
         <text class="icon icon-me"></text>
         <text>.icon-me</text>
       </view>
 
-      <view class="flex-3 content-column">
+      <view class="grid-3 content-column">
         <text class="icon icon-cart-full"></text>
         <text>.icon-cart-full</text>
       </view>
     </view>
     <view class="flex-column-wrap ptb">
 
-      <view class="flex-3 content-column">
+      <view class="grid-3 content-column">
         <text class="icon icon-cart"></text>
         <text>.icon-cart</text>
       </view>
 
-      <view class="flex-3 content-column">
+      <view class="grid-3 content-column">
         <text class="icon icon-category-full"></text>
         <text>.icon-category-full</text>
       </view>
 
-      <view class="flex-3 content-column">
+      <view class="grid-3 content-column">
         <text class="icon icon-category"></text>
         <text>.icon-category</text>
       </view>
     </view>
 
+    <view class="flex-column-wrap ptb">
+
+      <view class="grid-3 content-column">
+        <text class="icon icon-group-deliver"></text>
+        <text>.icon-group-deliver</text>
+      </view>
+
+      <view class="grid-3 content-column">
+        <text class="icon icon-scan"></text>
+        <text>.icon-scan</text>
+      </view>
+
+      <view class="grid-3 content-column">
+        <text class="icon icon-group-pay"></text>
+        <text>.icon-group-pay</text>
+      </view>
+    </view>
+
+    <view class="flex-column-wrap ptb">
+      <view class="grid-3 content-column">
+        <text class="icon icon-phone1"></text>
+        <text>.icon-phone1</text>
+      </view>
+
+      <view class="grid-3 content-column">
+        <text class="icon icon-yooxi"></text>
+        <text>.icon-yooxi</text>
+      </view>
+    </view>
+    <view class="demo-title">
+      <view class="title-main">iconFont</view>
+      <view class="title-sub">icon-close 目前是手写，没有字体库里目前没有</view>
+    </view>
+    <view class="flex-column-wrap ptb">
+      <view class="grid-3 content-column">
+        <text class="icon icon-close" style="left: 50%;"></text>
+        <text>.icon-close</text>
+      </view>
+    </view>
+    <view class="demo-title">
+      <view class="title-main">iconFont</view>
+      <view class="title-sub">icon-close 目前是手写，没有字体库里目前没有</view>
+    </view>
+    <view class="flex-column-wrap ptb">
+      <view class="grid-3 content-column">
+        <view class="check-mark-wrap" style="left: 50%;">
+          <text class="icon icon-check-mark"></text>
+        </view>
+        <text>.icon-check-mark</text>
+      </view>
+    </view>
   </view>
 </template>
 
@@ -171,7 +226,4 @@
 </script>
 
 <style scoped>
-  text {
-    text-align: center;
-  }
 </style>

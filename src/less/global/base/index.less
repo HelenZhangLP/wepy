@@ -6,6 +6,21 @@ page {
   font-family: @font-family;
   color: @color-text-gray;
   background-color: @color-bg-page;
+  height: 100%;
+  padding-bottom: 50rpx;
+  overflow: hidden;
+}
+
+button {
+  background-color: transparent;
+  padding: 0;
+  text-align: initial;
+  border-radius: 0;
+}
+
+button::before,
+button::after {
+  border: 0;
 }
 
 .height-common {
@@ -17,7 +32,7 @@ page {
 }
 
 .bg-color-theme {
-  background-color: @theme-color!important;
+  background-color: @color-bg-theme!important;
 }
 
 .bg-color-theme-light {
@@ -29,13 +44,17 @@ page {
 }
 
 .bg-color-delete-red {
-  background-color: @color-bg-delete-red;
+  background-color: @color-bg-delete-red!important;
 }
 
 .bg-color-gradient {
-  background: @color-bg-gradient;
+  background: @color-bg-gradient!important;
 }
 
 .bg-color-white {
-  background-color: @color-bg-white;
+  background-color: @color-bg-white!important;
+}
+
+.bg-color-gray {
+  background-color: @gray-light!important;
 }

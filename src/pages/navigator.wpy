@@ -1,0 +1,65 @@
+<template>
+  <view class="separate-line"></view>
+  <repeat for="{{list}}" key="index" index="index" item="item">
+    <navigator url="{{item.link}}" class="navigator-bar">
+      <view class="flex-vertical-center">
+        <text class="icon {{item.icon}} mr2 font-color-theme font-size-30"></text>
+        <view class="text">{{item.lab}}</view>
+      </view>
+      <text class="icon icon-right-arrow font-color-gray font-size-20"></text>
+    </navigator>
+  </repeat>
+</template>
+
+<script>
+  import wepy from 'wepy'
+
+  export default class Navigator extends wepy.page {
+    config = {
+      navigationBarTitleText: 'Navigator'
+    }
+    data = {
+      list: [
+        {
+          icon: 'icon-delete',
+          lab: 'button',
+          link: '/pages/button'
+        },
+        {
+          icon: 'icon-category-full',
+          lab: 'layout',
+          link: '/pages/layout'
+        },
+        {
+          icon: 'icon-gift',
+          lab: 'widget',
+          link: '/pages/widget'
+        },
+        {
+          icon: 'icon-me',
+          lab: 'label',
+          link: '/pages/label'
+        },
+        {
+          icon: 'icon-wait-deliver',
+          lab: 'icon',
+          link: '/pages/iconFont'
+        },
+        {
+          icon: 'icon-order',
+          lab: 'components',
+          link: '/pages/components'
+        }
+      ]
+    }
+    method = {}
+    events = {}
+
+    onLoad() {
+    };
+  }
+</script>
+
+<style scoped>
+
+</style>

@@ -3,121 +3,121 @@
   * 字体最大最小基数
  */
 .font-size-52 {
-  font-size: 52rpx;
+  font-size: 52rpx !important;
 }
 .font-size-51 {
-  font-size: 51rpx;
+  font-size: 51rpx !important;
 }
 .font-size-50 {
-  font-size: 50rpx;
+  font-size: 50rpx !important;
 }
 .font-size-49 {
-  font-size: 49rpx;
+  font-size: 49rpx !important;
 }
 .font-size-48 {
-  font-size: 48rpx;
+  font-size: 48rpx !important;
 }
 .font-size-47 {
-  font-size: 47rpx;
+  font-size: 47rpx !important;
 }
 .font-size-46 {
-  font-size: 46rpx;
+  font-size: 46rpx !important;
 }
 .font-size-45 {
-  font-size: 45rpx;
+  font-size: 45rpx !important;
 }
 .font-size-44 {
-  font-size: 44rpx;
+  font-size: 44rpx !important;
 }
 .font-size-43 {
-  font-size: 43rpx;
+  font-size: 43rpx !important;
 }
 .font-size-42 {
-  font-size: 42rpx;
+  font-size: 42rpx !important;
 }
 .font-size-41 {
-  font-size: 41rpx;
+  font-size: 41rpx !important;
 }
 .font-size-40 {
-  font-size: 40rpx;
+  font-size: 40rpx !important;
 }
 .font-size-39 {
-  font-size: 39rpx;
+  font-size: 39rpx !important;
 }
 .font-size-38 {
-  font-size: 38rpx;
+  font-size: 38rpx !important;
 }
 .font-size-37 {
-  font-size: 37rpx;
+  font-size: 37rpx !important;
 }
 .font-size-36 {
-  font-size: 36rpx;
+  font-size: 36rpx !important;
 }
 .font-size-35 {
-  font-size: 35rpx;
+  font-size: 35rpx !important;
 }
 .font-size-34 {
-  font-size: 34rpx;
+  font-size: 34rpx !important;
 }
 .font-size-33 {
-  font-size: 33rpx;
+  font-size: 33rpx !important;
 }
 .font-size-32 {
-  font-size: 32rpx;
+  font-size: 32rpx !important;
 }
 .font-size-31 {
-  font-size: 31rpx;
+  font-size: 31rpx !important;
 }
 .font-size-30 {
-  font-size: 30rpx;
+  font-size: 30rpx !important;
 }
 .font-size-29 {
-  font-size: 29rpx;
+  font-size: 29rpx !important;
 }
 .font-size-28 {
-  font-size: 28rpx;
+  font-size: 28rpx !important;
 }
 .font-size-27 {
-  font-size: 27rpx;
+  font-size: 27rpx !important;
 }
 .font-size-26 {
-  font-size: 26rpx;
+  font-size: 26rpx !important;
 }
 .font-size-25 {
-  font-size: 25rpx;
+  font-size: 25rpx !important;
 }
 .font-size-24 {
-  font-size: 24rpx;
+  font-size: 24rpx !important;
 }
 .font-size-23 {
-  font-size: 23rpx;
+  font-size: 23rpx !important;
 }
 .font-size-22 {
-  font-size: 22rpx;
+  font-size: 22rpx !important;
 }
 .font-size-21 {
-  font-size: 21rpx;
+  font-size: 21rpx !important;
 }
 .font-size-20 {
-  font-size: 20rpx;
+  font-size: 20rpx !important;
 }
-.font {
+.font-size {
   font-size: 26rpx;
-}
-.font-color-theme {
-  color: #FF5436;
 }
 .font-color {
   color: #333333;
 }
+.font-color-theme {
+  color: #D70110 !important;
+}
 .font-color-gray {
-  color: #999999;
+  color: #999999 !important;
 }
 .font-color-black {
-  color: #000;
+  color: #000 !important;
 }
 .font-color-white {
-  color: #fff;
+  color: #fff !important;
 }
 .font-num {
   font-family: Verdana;
@@ -127,4 +127,7 @@
 }
 .font-num-pingfang {
   font-family: PingFang-SC-Medium;
+}
+.font-bold {
+  font-weight: bold;
 }

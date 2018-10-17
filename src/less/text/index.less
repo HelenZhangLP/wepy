@@ -1,32 +1,25 @@
 
 @import "./font/index.wxss";
+@import "../global/index";
 
 /* 文本样式 start */
-.text-main-head {
+.text-title-main {
+  font-family: @font-family-for-number-pingfang;
+  font-size: @size-title-main;
   .font-color;
 }
 
-.text-sub-head-l1 {
-  .font-color-gray;
+.text-title-sub {
+  .font-size;
+  color:@color-text-gray-sub;
 }
 
 .text {
-  .font;
+  .font-size;
   .font-color;
 }
-
-.text-num {
-  .font-num
-}
-.text-num-bold {
-  .font-num-bold
-}
-.text-num-pingfang {
-  .font-num-pingfang;
-}
-
-.text-gray {
-  .font;
-  .font-color-gray;
-}
 /* 文本样式 end */
+
+.text-center {
+  text-align: center;
+}

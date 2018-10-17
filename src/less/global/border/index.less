@@ -1,43 +1,50 @@
+@import "../base/var/index.less";
 /**
   * 以 border 的数量命名
+  * 默认 4 个边框
+  * 后缀为 border color
  */
-.border-none {
-  border: none;
+.border-theme {
+  border: solid @unit @color-border-theme;
 }
-.border-2-none {
+.border {
+  border: solid @unit @color-border-gray;
+}
+.border-top-right-bottom {
+  .border;
+  border-left: none;
+}
+.border-right-bottom {
+  border: solid @unit @color-border-gray;
   border-left: none;
   border-top: none;
 }
-.border-1-bottom-none {
-  border-bottom: none;
-}
-.border-1-left-none {
-  border-left: none;
-}
-.border-1-right-none {
-  border-right: none;
-}
-.border-4 {
-  border: solid 1px #F5F5F5;
-}
-.border-3 {
-  border: solid 1px #F5F5F5;
-  border-left: none;
-}
-.border-2 {
-  border: solid 1px #F5F5F5;
-  border-left: none;
-  border-top: none;
-}
-.border-1-top {
-  border-top: solid 1px #F5F5F5;
-}
-.border-1-bottom {
-  border-bottom: solid 1px #F5F5F5;
+.border-top {
+  border-top: solid @unit @color-border-gray;
 }
 .border-bottom {
-  border-bottom: solid 1px #F5F5F5;
+  border-bottom: solid @unit @color-border-gray;
 }
-.border-1-left {
-  border-left: solid 1px #F5F5F5;
+.border-left {
+  border-left: solid @unit @color-border-gray;
+}
+
+/*
+ * reset
+ */
+.border-none {
+  border: none!important;
+}
+.border-left-top-none {
+  border-left: none!important;
+  border-top: none!important;
+}
+.border-bottom-none {
+  border-bottom: none!important;
+}
+.border-left-none {
+  border-left: none!important;
+}
+.border-right-none {
+  border-right: none!important;
 }
