@@ -1,0 +1,171 @@
+<template>
+  <view class="demo-title">
+    <view class="title-main">banner</view>
+    <view class="title-sub font-color-theme">使用这个组件注意看 dom 结构，dom 结构要与该文档保持一致</view>
+    <view class="title-sub">.swiper-image 给图片设置的宽高，包由图片自动撑开，宽撑满全屏，高度 136px</view>
+  </view>
+  <swiper indicator-dots="true" autoplay="true" circular='true'>
+    <block wx:for="{{swiperItems}}" wx:key="unique">
+      <swiper-item>
+        <image src="{{item}}" mode="aspectFill" class="swiper-image"></image>
+      </swiper-item>
+    </block>
+  </swiper>
+
+  <view class="demo-title">
+    <view class="title-main">商品列表</view>
+    <view class="title-sub">.wrap-list-item 列表item，img-wrap 宽高110px, flex-1 右半部部分自适应</view>
+    <view class="title-sub">img-wrap: 宽高 100% 占满图片容器</view>
+  </view>
+  <view class="wrap-list">
+    <view class="wrap-list-item">
+      <view class="wrap-img mr1">
+        <image src="https://img0.fengqucdn.com/fq/sku_info/watermark/online/544682/48cc8dfa5081079f36bd4e2f327c2e95.jpeg@400w_1c_1l.png" mode="aspectFill" class="img"></image>
+      </view>
+      <view class="flex-1 ml6">
+        <view class="text-title-main ellipsis-2 mb2">这里是商品的主标题，超出两行溢出隐藏，这里是商品的主标题，超出两行溢出隐藏</view>
+        <text class="label-adaption-tab">2人成团</text>
+        <view class="content-vertical-bottom">
+          <view class="layout-horizontal-left mt6 layout-nowrap">
+            <text class="text-gray">拼团价：</text>
+            <text class="price mr2">￥100</text>
+            <text class="price-origin">￥50</text>
+          </view>
+          <view class="btn-circle-radius-theme-m mt6">去拼团</view>
+        </view>
+      </view>
+    </view>
+    <view class="wrap-list-item">
+      <view class="wrap-img mr1">
+        <image src="https://img0.fengqucdn.com/fq/sku_info/watermark/online/544682/48cc8dfa5081079f36bd4e2f327c2e95.jpeg@400w_1c_1l.png" mode="aspectFill" class="img"></image>
+      </view>
+      <view class="flex-1 ml6">
+        <view class="text-title-main ellipsis-2 mb2">这里是商品的主标题，超出两行溢出隐藏，这里是商品的主标题，超出两行溢出隐藏</view>
+        <text class="label-adaption-tab">2人成团</text>
+        <view class="content-vertical-bottom">
+          <view class="layout-horizontal-left mt6 layout-nowrap">
+            <text class="text-gray">拼团价：</text>
+            <text class="price mr2">￥100</text>
+            <text class="price-origin">￥50</text>
+          </view>
+          <view class="btn-circle-radius-theme-m mt6">去拼团</view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="separate-line"></view>
+  <view class="demo-title">
+    <view class="title-main">tabs</view>
+    <view class="title-sub">用于页面筛选</view>
+    <view class="title-sub">.label-left-circle-gradient：左侧圆角，宽由业务自定义，详见当前页面 code</view>
+    <view class="title-sub">.label-right(left)-circle-white：右(左)侧白底圆角，宽由业务自定义，详见当前页面 code</view>
+  </view>
+  <view class="panel">
+    <view class="df">
+      <lable class="flex-1 {{labLeft ? 'label-left-circle-gradient' : 'label-left-circle-white'}}" @tap="setLeftBar">
+        左侧渐变圆角
+      </lable>
+      <lable class="flex-1 {{labRight ? 'label-right-circle-gradient' : 'label-right-circle-white'}}" @tap="setRightBar">
+        右侧白底圆角
+      </lable>
+    </view>
+  </view>
+  <view class="demo-title">
+    <view class="title-main">tabs</view>
+    <view class="title-sub">用于页面数据筛选 - 平</view>
+    <view class="title-sub">.label-left-circle-gradient：左侧圆角，宽由业务自定义，详见当前页面 code</view>
+    <view class="title-sub">.label-right(left)-circle-white：右(左)侧白底圆角，宽由业务自定义，详见当前页面 code</view>
+  </view>
+  <view class="">
+    <view-scroll
+      scroll-x = "true"
+      scroll-y = "false"
+      scroll-with-animation
+      class="tab-wrap flex-column-wrap flex-center"
+    >
+      <view
+        wx:for="{{forTabs.list}}"
+        wx:key="unique"
+        wx:for-item="item"
+        wx:for-index="idx"
+        class="tab-item {{item.id == 4 ? 'tab-item-selected' : ''}}">
+        <view class="tab-text">{{item.title}}</view>
+      </view>
+    </view-scroll>
+  </view>
+</template>
+<toast />
+<script>
+  import wepy from 'wepy'
+  import Toast from 'wepy-com-toast'
+
+  export default class Components extends wepy.page {
+    config = {
+      navigationBarTitleText: 'Components'
+    }
+    components = {
+      toast: Toast
+    }
+    data = {
+      swiperItems: [
+        'http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg',
+        'http://img06.tooopen.com/images/20160818/tooopen_sy_175866434296.jpg',
+        'http://img06.tooopen.com/images/20160818/tooopen_sy_175833047715.jpg'
+      ],
+      forTabs: {
+        fixed: false,
+        list: [
+          {
+            id: 1,
+            title: '全部'
+          },
+          {
+            id: 2,
+            title: '待发货'
+          },
+          {
+            id: 3,
+            title: '已支付'
+          },
+          {
+            id: 4,
+            title: '未支付'
+          },
+          {
+            id: 5,
+            title: '其他'
+          }
+        ]
+      },
+      labLeft: true,
+      labRight: false
+    }
+    methods = {
+      setLeftBar () {
+        if (this.labLeft) return
+        this.labLeft = !this.labLeft
+        this.labRight = !this.labRight
+
+        this.$invoke('toast', 'show', {
+          title: '调用接口请求数据，并渲染页面'
+        })
+      },
+      setRightBar () {
+        if (this.labRight) return
+        this.labLeft = !this.labLeft
+        this.labRight = !this.labRight
+
+        this.$invoke('toast', 'show', {
+          title: '调用接口请求数据，并渲染页面'
+        })
+      }
+    }
+    events = {}
+
+    onLoad() {
+    };
+  }
+</script>
+
+<style scoped>
+</style>

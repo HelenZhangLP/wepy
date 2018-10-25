@@ -1,0 +1,40 @@
+
+@import (reference) "../layout/index";
+@import (reference) "../text/index";
+@import (reference) "../label/index";
+
+
+/* 横向没有边线的 item start */
+@border-width: 2px;
+.tab-wrap {
+  .flex-wrap;
+  .height-common;
+  .line-height-common;
+  .bg-color-white;
+}
+
+//固定在页面顶部
+.tab-fixed {
+  position: fixed;
+  top: 0;
+  z-index: 2;
+}
+
+.tab-item {
+  .text-center;
+  .flex-1;
+  .ellipsis-1;
+  .font-size-28;
+  font-family: @font-family-for-number-pingfang;
+  max-width: 100%;
+  color: @gray-light;
+  box-sizing: border-box;
+}
+
+// 选中 tab 样式
+.tab-item-selected .tab-text {
+  .font-color-theme;
+  border-bottom: @border-width solid @color-border-theme;
+  box-sizing: border-box;
+}
+/* 横向没有边线的 item end */

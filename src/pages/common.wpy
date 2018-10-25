@@ -1,0 +1,39 @@
+<template>
+  <view class="wrap">
+    <view class="text-title-main"><text class="font-color-theme">text-title-main</text> 主标题，目前用于商品列表标题</view>
+    <view class="text-title-sub"><text class="font-color-theme">text-title-sub</text> 副标题，目前用于商品列表商品描述</view>
+    <view class="text"><text class="font-color-theme">text</text> 整站通用文本样式</view>
+    <view class="text text-center"><text class="font-color-theme">text text-center</text> 整站通用文本样式并且 <text class="font-color-theme">文本居中</text></view>
+
+    <view class="title-main font-bold">border</view>
+    <view class="border-bottom"></view>
+    <view class="border-bottom-theme-bold"></view>
+  </view>
+</template>
+
+<script>
+  import wepy from 'wepy'
+
+  export default class Common extends wepy.page {
+    config = {
+      navigationBarTitleText: '文本'
+    }
+    data = {}
+    method = {}
+    events = {}
+
+    onLoad() {
+    };
+  }
+</script>
+
+<style scoped>
+  .wrap view {
+    height: 45px;
+    line-height: 45px;
+    border-bottom: 1px solid #999;
+  }
+  .wrap view:last-of-type {
+    border-bottom: none;
+  }
+</style>

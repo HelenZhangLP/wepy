@@ -1,0 +1,27 @@
+/**
+  * button
+  * 根据宽分
+  * 1. 通屏； 2.
+  * 根据是否半圆角分 circle-radius
+  * 1. 4px 圆角； 2. 高度一半圆角
+  * 根据颜色分
+  * 1. 纯色； 2. 激变色 3. 透明色
+ */
+.btn-circle-radius-s {
+  width: 128rpx;
+  height: 48rpx;
+  background-color: transparent;
+  border: solid 1rpx transparent;
+  border-radius: 24rpx;
+  box-sizing: border-box;
+  color: #FF3500;
+}
+.btn-circle-radius-theme-s {
+  width: 128rpx;
+  height: 48rpx;
+  background-color: #FF3500;
+  border: solid 1rpx #FF3500;
+  border-radius: 24rpx;
+  box-sizing: border-box;
+  color: #fff;
+}

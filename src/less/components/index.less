@@ -1,0 +1,61 @@
+
+@import (reference) "../layout/index";
+@import (reference) "../text/index";
+@import (reference) "../label/index";
+
+
+/* 横向没有边线的 item start */
+@border-width: 2px;
+.tab-wrap {
+  .flex-wrap;
+  .height-common;
+  .line-height-common;
+  .bg-color-white;
+}
+
+//固定在页面顶部
+.tab-fixed {
+  position: fixed;
+  top: 0;
+  z-index: 2;
+}
+
+.tab-item,
+.tab-block-item {
+  .text-center;
+  .flex-1;
+  .ellipsis-1;
+  .font-size-28;
+  font-family: @font-family-for-number-pingfang;
+  max-width: 100%;
+  color: @gray-light;
+  box-sizing: border-box;
+}
+
+.tab-block-item:first-child,
+.tab-block-item:last-child {
+  border: solid @unit-px @color-border-theme;
+}
+.tab-block-item:first-child {
+  border-radius: @height-label 0rpx 0rpx @height-label;
+}
+.tab-block-item:last-child {
+  border-radius: 0rpx @height-label  @height-label 0rpx;
+}
+
+// 选中 tab 样式
+.tab-item-selected {
+  .tab-text {
+    .font-color-theme;
+    .border-bottom-theme-bold;
+    box-sizing: border-box;
+  }
+}
+
+// swiper 轮播图，一般用于首页
+.swiper-image {
+  .w100p;
+  height: @height-swiper-img;
+}
+/* 横向没有边线的 item end */
+
