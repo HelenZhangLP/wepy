@@ -4,6 +4,7 @@
     <view class="wrap pb4 mt">
       <view class="demo-title">
         <view class="title-main">important</view>
+        <view class="title-sub font-color-theme">生成最终版框架代码需要 lessc font/index.less font/index.wxss</view>
         <view class="title-sub">如果需要修改某一样式，请使用行内样式</view>
         <view class="title-sub">如 .title-sub color: #999，改 #333，可如下操作</view>
       </view>

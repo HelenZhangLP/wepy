@@ -4,12 +4,12 @@
     <view class="panel">
       <view class="demo-title">
         <view class="title-main">ATTENTION</view>
+        <view class="title-sub font-color-theme">button 默认白底主题色边框</view>
         <view class="title-sub">1. button 内容默认为单行文本，多行文本时垂直方向展示</view>
         <view class="title-sub">2. button 命名规则：以大小分六类，ss,s,m,l,xl,通屏</view>
         <view class="title-sub">3. button 命名规则：以颜色分四类，普通，theme, 渐变色，置灰 </view>
       </view>
     </view>
-    <view class="separate-line"></view>
     <view class="demo-title">
       <view class="title-main">Button[128/48]</view>
       <view class="title-sub">.btn-circle-radius-ss 背景透明色，1rpx 边框</view>

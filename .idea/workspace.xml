@@ -51,14 +51,14 @@
     <session id="1991053701">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
+          <entry key="project.closed" value="9" />
           <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.12" value="1" />
-          <entry key="project.open.time.20" value="1" />
-          <entry key="project.open.time.28" value="1" />
+          <entry key="project.open.time.20" value="2" />
+          <entry key="project.open.time.28" value="2" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -66,106 +66,74 @@
           <entry key="css" value="5" />
           <entry key="gitignore" value="1" />
           <entry key="html" value="10" />
-          <entry key="js" value="7" />
-          <entry key="json" value="3" />
-          <entry key="less" value="202" />
+          <entry key="js" value="8" />
+          <entry key="json" value="6" />
+          <entry key="less" value="211" />
           <entry key="vue" value="11" />
-          <entry key="wpy" value="94" />
+          <entry key="wpy" value="98" />
           <entry key="wxml" value="4" />
-          <entry key="wxss" value="78" />
+          <entry key="wxss" value="80" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="83" />
+          <entry key="CSS" value="85" />
           <entry key="HTML" value="14" />
-          <entry key="JSON" value="3" />
-          <entry key="JavaScript" value="7" />
-          <entry key="Less" value="202" />
+          <entry key="JSON" value="6" />
+          <entry key="JavaScript" value="8" />
+          <entry key="Less" value="211" />
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Vue.js" value="104" />
+          <entry key="Vue.js" value="108" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
         <counts>
-          <entry key="ESLintLanguageService" value="8" />
+          <entry key="ESLintLanguageService" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="10" />
-          <entry key="less" value="10195" />
+          <entry key="less" value="10490" />
           <entry key="vue" value="84" />
-          <entry key="wpy" value="8290" />
+          <entry key="wpy" value="8642" />
           <entry key="wxml" value="87" />
-          <entry key="wxss" value="89" />
+          <entry key="wxss" value="143" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="89" />
+          <entry key="CSS" value="143" />
           <entry key="HTML" value="87" />
-          <entry key="Less" value="10195" />
+          <entry key="Less" value="10490" />
           <entry key="PLAIN_TEXT" value="10" />
-          <entry key="Vue.js" value="8374" />
+          <entry key="Vue.js" value="8726" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.72525495">
+    <splitter split-orientation="horizontal" split-proportion="0.69022554">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/pages/common.wpy">
+            <entry file="file://$PROJECT_DIR$/package.json">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="180">
-                  <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/less/text/index.less">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="108">
-                  <caret line="6" column="18" lean-forward="true" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/pages/components.wpy">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="144">
-                  <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+                <state relative-caret-position="75">
+                  <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/dist/less/index.wxss">
+            <entry file="file://$PROJECT_DIR$/src/pages/components.wpy">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="126">
-                  <caret line="7" column="19" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/less/layout/index.less">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="237">
-                  <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/less/widget/index.less">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="370">
-                  <caret line="237" column="10" selection-start-line="237" selection-start-column="1" selection-end-line="237" selection-end-column="10" />
+                <state relative-caret-position="276">
+                  <caret line="112" column="78" lean-forward="true" selection-start-line="110" selection-start-column="8" selection-end-line="112" selection-end-column="78" />
+                  <folding>
+                    <element signature="n#view#1;n#template#0;n#!!top" />
+                    <element signature="n#view#3;n#template#0;n#!!top" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -177,8 +145,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/less/global/base/var/index.less">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="443">
-                  <caret line="76" column="28" selection-start-line="76" selection-start-column="28" selection-end-line="76" selection-end-column="28" />
+                <state relative-caret-position="308">
+                  <caret line="80" column="26" selection-start-line="80" selection-start-column="23" selection-end-line="80" selection-end-column="26" />
                 </state>
               </provider>
             </entry>
@@ -198,15 +166,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>tab__item--selected</find>
-      <find>.border-</find>
-      <find>flex-4</find>
-      <find>flex-3</find>
-      <find>flex-2</find>
-      <find>tab__title</find>
-      <find>flex-1</find>
-      <find>flex-</find>
-      <find>wrap</find>
       <find>wrap-radius</find>
       <find>.flex</find>
       <find>flex-vertical-center</find>
@@ -228,6 +187,15 @@
       <find>.text</find>
       <find>PingFangSC-Medium</find>
       <find>wrap-list-item</find>
+      <find>border-bottom-theme-bold</find>
+      <find>tab-item-selected</find>
+      <find>wrap-</find>
+      <find>@border-width</find>
+      <find>appid</find>
+      <find>image-swiper</find>
+      <find>icon-brand</find>
+      <find>product-detail-img</find>
+      <find>items</find>
     </findStrings>
     <replaceStrings>
       <replace>class=&quot;demo-title&quot;</replace>
@@ -265,9 +233,9 @@
       <dir>$PROJECT_DIR$/src/less/global/base/var</dir>
       <dir>$PROJECT_DIR$/dist</dir>
       <dir>$PROJECT_DIR$</dir>
-      <dir>$PROJECT_DIR$/src</dir>
       <dir>$PROJECT_DIR$/src/pages</dir>
       <dir>$PROJECT_DIR$/src/less</dir>
+      <dir>$PROJECT_DIR$/src</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -276,7 +244,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/pages/layout.vue" />
         <option value="$PROJECT_DIR$/src/less/layout/list.vue" />
         <option value="$PROJECT_DIR$/src/pages/widget.vue" />
         <option value="$PROJECT_DIR$/src/pages/widget.wpy.vue" />
@@ -289,7 +256,6 @@
         <option value="$PROJECT_DIR$/dist/pages/label.wxml" />
         <option value="$PROJECT_DIR$/src/less/layout/list.less" />
         <option value="$PROJECT_DIR$/src/pages/navigator.vue" />
-        <option value="$PROJECT_DIR$/src/pages/button.wpy" />
         <option value="$PROJECT_DIR$/src/less/global/base/var/ice/index.less" />
         <option value="$PROJECT_DIR$/src/less/global/base/var/box/index.less" />
         <option value="$PROJECT_DIR$/src/less/icon/iconfont/demo_fontclass.html" />
@@ -301,31 +267,33 @@
         <option value="$PROJECT_DIR$/src/less/global/base/var/leshou/index.less" />
         <option value="$PROJECT_DIR$/src/less/btn/index.less" />
         <option value="$PROJECT_DIR$/src/less/global/index.less" />
-        <option value="$PROJECT_DIR$/src/pages/index.wpy" />
         <option value="$PROJECT_DIR$/src/pages/components.vue" />
         <option value="$PROJECT_DIR$/src/pages/navigator.wpy" />
         <option value="$PROJECT_DIR$/src/pages/widget.wpy" />
         <option value="$PROJECT_DIR$/src/less/index.less" />
-        <option value="$PROJECT_DIR$/src/less/layout/index.less" />
-        <option value="$PROJECT_DIR$/dist/less/index.wxss" />
         <option value="$PROJECT_DIR$/src/less/global/base/var/mingtai/index.less" />
         <option value="$PROJECT_DIR$/src/less/icon/iconWow/iconfont.wxss" />
         <option value="$PROJECT_DIR$/src/less/icon/index.less" />
         <option value="$PROJECT_DIR$/src/pages/label.wpy" />
         <option value="$PROJECT_DIR$/src/less/label/index.less" />
-        <option value="$PROJECT_DIR$/src/less/global/base/index.less" />
-        <option value="$PROJECT_DIR$/src/less/global/border/index.less" />
         <option value="$PROJECT_DIR$/src/less/global/mp/index.less" />
-        <option value="$PROJECT_DIR$/src/less/components/index.less" />
         <option value="$PROJECT_DIR$/src/less/navigator/index.less" />
         <option value="$PROJECT_DIR$/src/less/text/font/index.less" />
         <option value="$PROJECT_DIR$/src/pages/common.vue" />
         <option value="$PROJECT_DIR$/src/app.wpy" />
         <option value="$PROJECT_DIR$/src/pages/iconFont.wpy" />
         <option value="$PROJECT_DIR$/src/less/text/index.less" />
-        <option value="$PROJECT_DIR$/src/less/global/base/var/index.less" />
+        <option value="$PROJECT_DIR$/src/less/global/base/index.less" />
+        <option value="$PROJECT_DIR$/src/less/layout/index.less" />
+        <option value="$PROJECT_DIR$/src/pages/button.wpy" />
+        <option value="$PROJECT_DIR$/src/pages/index.wpy" />
         <option value="$PROJECT_DIR$/src/pages/common.wpy" />
+        <option value="$PROJECT_DIR$/src/less/global/border/index.less" />
+        <option value="$PROJECT_DIR$/dist/less/index.wxss" />
         <option value="$PROJECT_DIR$/src/less/widget/index.less" />
+        <option value="$PROJECT_DIR$/project.config.json" />
+        <option value="$PROJECT_DIR$/src/less/global/base/var/index.less" />
+        <option value="$PROJECT_DIR$/src/less/components/index.less" />
         <option value="$PROJECT_DIR$/src/pages/components.wpy" />
       </list>
     </option>
@@ -347,9 +315,9 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="-1920" />
-    <option name="width" value="1920" />
-    <option name="height" value="1080" />
+    <option name="x" value="-1600" />
+    <option name="width" value="1600" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -359,6 +327,41 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="fangqu-ui-element-wepy" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+            <path>
+              <item name="fangqu-ui-element-wepy" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="fangqu-ui-element-wepy" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="less" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="fangqu-ui-element-wepy" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="less" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="components" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="fangqu-ui-element-wepy" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="pages" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -400,52 +403,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
-            <path>
-              <item name="fangqu-ui-element-wepy" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-            </path>
-            <path>
-              <item name="fangqu-ui-element-wepy" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="dist" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="fangqu-ui-element-wepy" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="dist" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="less" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="fangqu-ui-element-wepy" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="fangqu-ui-element-wepy" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="less" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="fangqu-ui-element-wepy" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="less" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="layout" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="fangqu-ui-element-wepy" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="pages" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -461,7 +418,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.HTML" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -503,18 +460,20 @@
       <workItem from="1538186886868" duration="27739000" />
       <workItem from="1538967572494" duration="2533000" />
       <workItem from="1538978941289" duration="63563000" />
-      <workItem from="1539575254359" duration="22726000" />
+      <workItem from="1539575254359" duration="24932000" />
+      <workItem from="1539843637562" duration="3282000" />
+      <workItem from="1540177440479" duration="14696000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="208478000" />
+    <option name="totallyTimeSpent" value="228662000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1920" y="0" width="1920" height="1080" extended-state="0" />
+    <frame x="-1600" y="0" width="1600" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12216956" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15769474" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -527,8 +486,8 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32970297" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5002633" side_tool="true" weight="0.66930693" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4997367" weight="0.66930693" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5015833" side_tool="true" visible="true" weight="0.06746988" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49841672" visible="true" weight="0.06746988" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -561,41 +520,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/components/panel.wpy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/less/icon/index.wxss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/less/icon/iconfont/demo_fontclass.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="201" column="58" selection-start-line="201" selection-start-column="40" selection-end-line="201" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/button.wpy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/less/global/base/var/ice/index.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="15" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/less/global/base/var/box/index.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -656,13 +580,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/less/layout/list.less" />
-    <entry file="file://$PROJECT_DIR$/src/pages/index.wpy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="30" lean-forward="true" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/local/lib/node_modules/wepy-cli/lib/util.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="302">
@@ -758,10 +675,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1242">
           <caret line="69" column="36" selection-start-line="69" selection-start-column="36" selection-end-line="69" selection-end-column="36" />
-          <folding>
-            <element signature="n#style#0;n#image#0;n#view#12;n#view#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#image#0;n#view#14;n#view#0;n#template#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -786,20 +699,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/less/global/base/index.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/less/global/border/index.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/less/global/mp/index.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="402">
@@ -814,13 +713,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/less/components/index.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="39" column="22" lean-forward="true" selection-start-line="1" selection-end-line="39" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/less/navigator/index.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
@@ -828,21 +720,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/less/text/font/index.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="741">
-          <caret line="53" column="12" selection-start-line="53" selection-start-column="12" selection-end-line="53" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/iconFont.wpy">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="762">
           <caret line="224" column="3" selection-start-line="224" selection-start-column="3" selection-end-line="224" selection-end-column="3" />
-          <folding>
-            <element signature="n#style#0;n#text#0;n#view#0;n#view#13;n#view#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#view#0;n#view#0;n#view#15;n#view#0;n#template#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -850,9 +731,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="438">
           <caret line="81" column="37" selection-start-line="81" selection-start-column="37" selection-end-line="81" selection-end-column="37" />
-          <folding>
-            <element signature="n#style#0;n#lable#0;n#view#3;n#view#0;n#template#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -863,59 +741,136 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/less/global/base/var/index.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="76" column="28" selection-start-line="76" selection-start-column="28" selection-end-line="76" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/common.wpy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app.wpy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/less/text/index.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="18" lean-forward="true" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+        <state relative-caret-position="90">
+          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/less/layout/index.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
+        <state relative-caret-position="3810">
+          <caret line="254" column="34" selection-start-line="254" selection-start-column="1" selection-end-line="254" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/less/widget/index.less">
+    <entry file="file://$PROJECT_DIR$/src/pages/button.wpy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="237" column="10" selection-start-line="237" selection-start-column="1" selection-end-line="237" selection-end-column="10" />
+        <state relative-caret-position="210">
+          <caret line="14" column="52" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/components.wpy">
+    <entry file="file://$PROJECT_DIR$/src/less/text/font/index.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+        <state relative-caret-position="270">
+          <caret line="18" column="3" selection-start-line="18" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/less/global/base/index.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="39" column="1" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/common.wpy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="41" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/less/global/border/index.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="25" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dist/less/index.wxss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="19" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+        <state relative-caret-position="4583">
+          <caret line="2412" column="13" lean-forward="true" selection-start-line="2412" selection-start-column="13" selection-end-line="2412" selection-end-column="13" />
+          <folding>
+            <element signature="e#23465#32066#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wepy.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="23" column="11" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/index.wpy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1829">
+          <caret line="127" column="5" selection-start-line="127" selection-start-column="5" selection-end-line="127" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/app.wxss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="1254" column="12" selection-start-line="1254" selection-start-column="12" selection-end-line="1254" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/less/widget/index.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="216" column="18" selection-start-line="216" selection-start-column="18" selection-end-line="216" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app.wpy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-312">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project.config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/less/global/base/var/index.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="80" column="26" selection-start-line="80" selection-start-column="23" selection-end-line="80" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/less/components/index.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="562">
+          <caret line="56" column="9" lean-forward="true" selection-start-line="56" selection-start-column="9" selection-end-line="56" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/components.wpy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="112" column="78" lean-forward="true" selection-start-line="110" selection-start-column="8" selection-end-line="112" selection-end-column="78" />
+          <folding>
+            <element signature="n#view#1;n#template#0;n#!!top" />
+            <element signature="n#view#3;n#template#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
