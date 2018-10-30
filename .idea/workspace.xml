@@ -1,43 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="51bf8b08-fdbc-4fcf-b308-70907b6287c5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pages/navigator.wpy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.wpy" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.wpy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/less/btn/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/less/btn/index.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/less/global/base/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/less/global/base/index.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/less/global/base/var/box/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/less/global/base/var/box/index.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/less/global/base/var/ice/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/less/global/base/var/ice/index.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/less/global/base/var/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/less/global/base/var/index.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/less/global/base/var/mall-shop/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/less/global/base/var/mall-shop/index.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/less/global/border/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/less/global/border/index.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/less/icon/iconfont/demo_fontclass.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/less/icon/iconfont/demo_fontclass.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/less/icon/iconfont/demo_symbol.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/less/icon/iconfont/demo_symbol.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/less/icon/iconfont/demo_unicode.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/less/icon/iconfont/demo_unicode.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/less/icon/iconfont/iconfont.eot" beforeDir="false" afterPath="$PROJECT_DIR$/src/less/icon/iconfont/iconfont.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/less/icon/iconfont/iconfont.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/less/icon/iconfont/iconfont.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/less/icon/iconfont/iconfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/less/icon/iconfont/iconfont.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/less/icon/iconfont/iconfont.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/less/icon/iconfont/iconfont.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/less/icon/iconfont/iconfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/src/less/icon/iconfont/iconfont.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/less/icon/iconfont/iconfont.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/src/less/icon/iconfont/iconfont.wxss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/less/icon/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/less/icon/index.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/less/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/less/index.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/less/label/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/less/label/index.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/less/layout/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/less/layout/index.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/less/layout/list.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/less/layout/list.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/less/text/font/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/less/text/font/index.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/less/text/font/index.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/src/less/text/font/index.wxss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/less/text/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/less/text/index.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/less/widget/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/less/widget/index.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/button.wpy" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/button.wpy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/iconFont.wpy" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/iconFont.wpy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.wpy" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.wpy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/label.wpy" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/label.wpy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/layout.wpy" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/layout.wpy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/widget.wpy" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/widget.wpy" afterDir="false" />
-    </list>
+    <list default="true" id="51bf8b08-fdbc-4fcf-b308-70907b6287c5" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -113,56 +77,26 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.69022554">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/package.json">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="344">
-                  <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/pages/components.wpy">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="135">
-                  <caret line="9" column="67" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="67" />
-                  <folding>
-                    <element signature="n#view#1;n#template#0;n#!!top" />
-                    <element signature="n#view#3;n#template#0;n#!!top" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/project.config.json">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="162">
-                  <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/less/global/base/var/index.less">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="308">
-                  <caret line="80" column="26" selection-start-line="80" selection-start-column="23" selection-end-line="80" selection-end-column="26" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/pages/layout.wpy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="23" column="36" lean-forward="true" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pages/navigator.wpy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="25" column="30" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -315,18 +249,16 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="NodeModulesDirectoryManager">
-    <handled-path value="$PROJECT_DIR$/node_modules" />
-  </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="-1600" />
-    <option name="width" value="1600" />
-    <option name="height" value="900" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="92" />
+    <option name="y" value="23" />
+    <option name="width" value="1251" />
+    <option name="height" value="777" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -340,8 +272,43 @@
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
             <path>
-              <item name="fangqu-ui-element-wepy" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="wepy" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+            <path>
+              <item name="wepy" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="wepy" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="less" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="wepy" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="less" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="global" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="wepy" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="less" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="global" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="base" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="wepy" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="less" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="global" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="base" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="var" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
@@ -452,13 +419,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="230976000" />
+    <option name="totallyTimeSpent" value="231500000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1600" y="0" width="1600" height="900" extended-state="0" />
+    <frame x="92" y="23" width="1251" height="777" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15769474" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21788618" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -472,7 +439,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32970297" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5015833" side_tool="true" visible="true" weight="0.38795182" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49841672" visible="true" weight="0.38795182" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49841672" visible="true" weight="0.1970803" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -630,7 +597,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/navigator.wpy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
+        <state relative-caret-position="375">
           <caret line="25" column="30" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
         </state>
       </provider>
@@ -721,8 +688,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/layout.wpy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1296">
-          <caret line="72" column="13" selection-start-line="72" selection-start-column="13" selection-end-line="72" selection-end-column="13" />
+        <state relative-caret-position="126">
+          <caret line="23" column="36" lean-forward="true" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -779,9 +746,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4583">
           <caret line="2412" column="13" lean-forward="true" selection-start-line="2412" selection-start-column="13" selection-end-line="2412" selection-end-column="13" />
-          <folding>
-            <element signature="e#23465#32066#1" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -838,10 +802,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="67" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="67" />
-          <folding>
-            <element signature="n#view#1;n#template#0;n#!!top" />
-            <element signature="n#view#3;n#template#0;n#!!top" />
-          </folding>
         </state>
       </provider>
     </entry>
